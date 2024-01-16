@@ -38,6 +38,7 @@ klo 20:52 Poistin oracle virtual Boxin (Oracle Vm VirtualBox 7.0.2) Ohjauspaneel
 klo 21:00 etsin aiemmin ladatusta tiedostoista Oracle -hakusanalla ohjelmapakettia. Olen ladannut paketin VirtualBox-7.0.10.158379-Win, jonka suoritin järjestelmävalvojana. Sallin ohjelman tehdä muutoksia koneeseen järjestelmävalvojana.  
 
  ![oracle vizard](https://github.com/VaMaija/Linux2024/assets/142913118/2e96e38d-4641-4042-8a1e-dfe78b71299c)
+ 
  valitsin Next ja ohjasin ohjelman asentumaan c -asemaan (Location:C:\Program Files\Oracle\VirtualBox\ )
 
  klo 21.20 ohjelma varoitti nettiyhteyden katkeamisesta asennuksen seurauksena. 
@@ -47,6 +48,10 @@ klo 21:00 etsin aiemmin ladatusta tiedostoista Oracle -hakusanalla ohjelmapakett
 Seuraava varoitus koski Pythonin puuttumista asennuspaketista
 
 ![oraclesta puuttuu python core](https://github.com/VaMaija/Linux2024/assets/142913118/afab7701-8e12-4c97-b704-52125a055248)
+
+Keskeytin asennuksen tässä vaiheesa ja pidin tauon. 
+
+
 
 
 
