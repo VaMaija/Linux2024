@@ -22,7 +22,18 @@ Avoimeen lähdekoodin (**Open source**) ohjelman lähdekoodi on yleensä ilmaine
   
 ## a)
 
-### Oman Linuxin asentaminen virtuaalikoneeseen
+### Oman Linuxin asentaminen virtuaalikoneeseen: 
+
+asennus 16.1.2024 Käytössäni on Cimokselta käytettynä hankittu HP Elitebook. Tein asennustyön kotonani Nurmijärvellä käyttäen matkapuhelimen verkkoyhteyttä kodin wlanin ollessa remontissa. Tästä syystä käytin koneeseeni aiemmin ladattua Oracle virtual Boxin tiedostopakettia. 
+
+klo 20:40 Poistin aikaisemmin asennetun Oracle virtual Boxin koneen työpöydältä.
+klo 20:45 Tarkastin koneeni suorituskyvyn CTRL+alt+del yhdistelmällä ja valitsemalla valikosta tehtävienhallinnan ja sieltä suorituskyky -välilehden. Muistia on käytettävissä 7,9 Gb ja muistipaikkoja 2/2.  
+klo 20:52 Poistin oracle virtual Boxin (Oracle Vm VirtualBox 7.0.2) Ohjauspaneelin kautta (Ohjauspaneeli > ohjelmat > Ohjelmat ja toiminnot)
+ klikkaamalla ohjelman kohdalla hiiren vasemmalla puolella ja valitsemalla "Poista asennus", tietokone kysyi varmistusviestillä haluanko todella poistaa ohjelman. Vastasin kyllä. 
+klo 21:00 etsin aiemmin ladatusta tiedostoista Oracle -hakusanalla ohjelmapakettia. Olen ladannut paketin virtualbox-7.0.2-installer  
+
+
+
 
   
   
