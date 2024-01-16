@@ -6,6 +6,9 @@
   
   Älä kopioi, plagioi tai kirjaa asioita, mitä et ole tehnyt. Käytä työssäsi ainoastaan materiaalia, johon sinulla on käyttöoikeus. 
 
+  Lähteet: [Tero Karvisen Linux Palvelimet 2024](https://terokarvinen.com/2006/raportin-kirjoittaminen-4/)
+  
+
 
 
 
