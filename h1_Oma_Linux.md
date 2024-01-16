@@ -76,6 +76,10 @@ Hardware välilehdellä valitsin 4500MB perusmuistitilaa ja yhden prosessorin vi
 
 Hard disk välilehdeltä valitsin create a virtual hard disk now -vaihtoehdon. tarkastettuani asetukset painoin **"finish"**
 
+klo 23.37 Testasin järjestelmän toimivuutta avaamalla debianin virtuaalikoneella. Hiiri ei toiminut järjestelmässä, mutta se avautui. 
+
+*Uniaika*
+
     
 
 
