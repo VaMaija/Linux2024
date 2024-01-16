@@ -39,9 +39,15 @@ klo 21:00 etsin aiemmin ladatusta tiedostoista Oracle -hakusanalla ohjelmapakett
 
  ![oracle vizard](https://github.com/VaMaija/Linux2024/assets/142913118/2e96e38d-4641-4042-8a1e-dfe78b71299c)
  valitsin Next ja ohjasin ohjelman asentumaan c -asemaan (Location:C:\Program Files\Oracle\VirtualBox\ )
+
+ klo 21.20 ohjelma varoitti nettiyhteyden katkeamisesta asennuksen seurauksena. 
  
- 
- 
+![oracle varoitus](https://github.com/VaMaija/Linux2024/assets/142913118/60b3a00e-33d0-4bb6-8c98-d2a8c6e1e1cb)
+
+Seuraava varoitus koski Pythonin puuttumista asennuspaketista
+
+![oraclesta puuttuu python core](https://github.com/VaMaija/Linux2024/assets/142913118/afab7701-8e12-4c97-b704-52125a055248)
+
 
 
 
