@@ -18,10 +18,12 @@ Ohjelma on vapaa ohjelma (**Free software**) jos se antaa käyttäjilleen tasapu
 
 Avoimeen lähdekoodin (**Open source**) ohjelman lähdekoodi on yleensä ilmainen. Sen perustavanlaatuinen filosofia liittyy siihen, että kaikki voivat parantaa halutessaan ohjelmaa ja jakaa parennettua koodia eteenpäin.    
   
-  
   Lähde: [Gnu.org Linuxin filosofia](https://www.gnu.org/philosophy/free-sw.html#four-freedoms)
   
-  
+## a)
+
+### Oman Linuxin asentaminen virtuaalikoneeseen
+
   
   
 
