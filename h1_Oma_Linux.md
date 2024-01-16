@@ -69,9 +69,12 @@ klo 23:00 Avasin Oraclen virtual boxin ja aloitin uuden virtuaalikoneen luomisen
 ![debian aloitus](https://github.com/VaMaija/Linux2024/assets/142913118/9d88ddc8-bf8f-4ec4-b227-c5e89e6b3577)
 
 Säädin koneeseen expert -modessa Virtuaalikoneen nimeksi Debian2024 ja latasin debianin virtuaalikoneen levykkeen. Vaihdoin myös versioksi 64-bittisen. 
-23.22 Unattended Instal -välilehdeltä vaihdoin käyttäjänimen ja salasanan. Tallensin ne molemmat koneen ulkopuolelle varmuuden vuoksi. Sitten huomasin [Tero Karvisen ohjeista](https://terokarvinen.com/2021/install-debian-on-virtualbox/) että siellä neuvottiin "Skip Anattended Install", joten pistin täpän tuohon kohtaan ja siirryin seuraavaan osuuteen. 
+
+Klo 23.22 Unattended Instal -välilehdeltä vaihdoin käyttäjänimen ja salasanan. Tallensin ne molemmat koneen ulkopuolelle varmuuden vuoksi. Sitten huomasin [Tero Karvisen ohjeista](https://terokarvinen.com/2021/install-debian-on-virtualbox/) että siellä neuvottiin "Skip Anattended Install", joten pistin täpän tuohon kohtaan ja siirryin seuraavaan osuuteen. 
 
 Hardware välilehdellä valitsin 4500MB perusmuistitilaa ja yhden prosessorin virtuaalikoneen käyttöön. 
+
+Hard disk välilehdeltä valitsin create a virtual hard disk now -vaihtoehdon. tarkastettuani asetukset painoin **"finish"**
 
     
 
