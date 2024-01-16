@@ -51,6 +51,9 @@ Seuraava varoitus koski Pythonin puuttumista asennuspaketista
 
 Keskeytin asennuksen tässä vaiheesa ja pidin tauon. 
 
+Suuntasin kohteeseen https://www.virtualbox.org/wiki/Downloads ja latasin VirtualBox 7.0.14 paketin **windows hosts**
+
+
 
 
 
