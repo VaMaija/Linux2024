@@ -62,7 +62,7 @@ klo 22.25 Virtuaalikone on asentunut. Latasin VirtualBox 7.0.14 Oracle VM Virtua
 
 #### Linux virtuaalikoneeseen:
 
-klo 22.39 Kaivoin ladatuista tiedoistoista aiemmin päivällä tunnilla lataamani debian Liven, johon oli suora linkki [Tero Karvisen sivuilla](
+klo 22.39 Kaivoin ladatuista tiedoistoista aiemmin päivällä tunnilla lataamani debian Liven, johon oli suora linkki [Tero Karvisen sivuilla](https://terokarvinen.com/2021/install-debian-on-virtualbox/)
 
 
 
