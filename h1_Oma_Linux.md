@@ -9,6 +9,10 @@
   Lähteet: [Tero Karvisen Linux Palvelimet 2024, raportointiohjeet](https://terokarvinen.com/2006/raportin-kirjoittaminen-4/)
 
 ### Free software Defenition **FSF**
+
+  Lähde: [Gnu.org Linuxin filosofia](https://www.gnu.org/philosophy/free-sw.html#four-freedoms)
+  
+  
   
   
 
