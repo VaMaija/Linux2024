@@ -51,8 +51,28 @@ Seuraava varoitus koski Pythonin puuttumista asennuspaketista
 
 Keskeytin asennuksen tässä vaiheesa ja pidin tauon. 
 
-Suuntasin kohteeseen https://www.virtualbox.org/wiki/Downloads ja latasin VirtualBox 7.0.14 paketin **windows hosts**
+Suuntasin kohteeseen https://www.virtualbox.org/wiki/Downloads ja latasin VirtualBox 7.0.14 paketin **windows hosts** 
 
+klo 22.12 Annoin Ojhelmalle luvan suorittaa asennuksia järjestelmävalvojana ja hyväksyin että koneelle asennetaan versio 7.0.14 Oracle virtual boxista.
+Hyväksyin sen, että virtualbox asennetaan c-asemalle (C:\Program Files\Oracle\VirtualBox\) Myös uudemmalla virtuaalikoneella tuli varoitus Python coren liitännäisten puuttumisesta. Jatkoin asennusta. 
+
+klo 22.25 Virtuaalikone on asentunut. Latasin VirtualBox 7.0.14 Oracle VM VirtualBox Extension Packin, mutta en asentanut sitä vielä, koska se pyysi pääsyä isännöimään kameraa ja salaamaan tiedostojani. Mahdollisen kiristyshaittaohjelman vuoksi en ottanut ohjelmaa käyttöön.
+
+![extension pack](https://github.com/VaMaija/Linux2024/assets/142913118/f7dfc2be-d889-4870-9333-f8a28bcfe9ab) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
