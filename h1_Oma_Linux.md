@@ -10,11 +10,13 @@
 
 ### Free software Defenition **FSF**
 
-Ohjelma on vapaa ohjelam jos se antaa käyttäjilleen tasapuolisesti seuraavat neljä perusvapautta:  
+Ohjelma on vapaa ohjelma (Free software) jos se antaa käyttäjilleen tasapuolisesti seuraavat neljä perusvapautta:  
   - Sinulla on oikeus käyttää ohjelmaa miten haluat ja mihin tarkoitukseen tahansa (freedom 0)
-  - Sinulla on oikeus selvittää miten ohjelma toimii ja sinulla on myös muuttaa tätä ohjelmaa sinulla paremmmin sopivaksi. Tähän tarvitset aohjelmallista lähdekoodia, joka saattaa olla maksullinen. Saattaa olla, että sinun pitää maksaa lähdekoodista. Vapaa softa ei välttämättä tarkoita ilmaista lähdekoodia. (freedom 1)
-  - Sinulla on oikeus jakaa kopioita koodista auttaaksesi muita (freedom 2)
-  - Sinulla on oikeus jakaa muokkaamaasi ohjelmaa muille ja hyödyttää näin koko yhteisöä. Pääsy lähdekoodiin on tämän edellytys.     
+  - Sinulla on oikeus selvittää miten ohjelma toimii ja sinulla on myös muuttaa tätä ohjelmaa sinulla paremmmin sopivaksi. Tähän tarvitset aohjelmallista lähdekoodia, joka saattaa olla maksullinen. Saattaa olla, että sinun pitää maksaa ohjelman lähdekoodista. Vapaa softa ei välttämättä tarkoita ilmaista lähdekoodia (freedom 1).
+  - Sinulla on oikeus jakaa kopioita koodista auttaaksesi muita (freedom 2).
+  - Sinulla on oikeus jakaa muokkaamaasi ohjelmaa muille ja hyödyttää näin koko yhteisöä. Pääsy lähdekoodiin on tämän edellytys (freedom 3).
+
+Avoimeen lähdekoodin (Open source) ohjelman lähdekoodi on yleensä ilmainen. Sen perustavanlaatuinen filosofia liittyy siihen, että kaikki voivat parantaa halutessaan ohjelmaa ja jakaa parennettua koodia eteenpäin.    
   
   
   Lähde: [Gnu.org Linuxin filosofia](https://www.gnu.org/philosophy/free-sw.html#four-freedoms)
