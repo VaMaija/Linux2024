@@ -24,6 +24,8 @@ Avoimeen lähdekoodin (**Open source**) ohjelman lähdekoodi on yleensä ilmaine
 
 ### Oman Linuxin asentaminen virtuaalikoneeseen: 
 
+#### Virtuaalikone: 
+
 asennus 16.1.2024 Käytössäni on Cimokselta käytettynä hankittu HP Elitebook. Tein asennustyön kotonani Nurmijärvellä käyttäen matkapuhelimen verkkoyhteyttä kodin wlanin ollessa remontissa. Tästä syystä käytin koneeseeni aiemmin ladattua Oracle virtual Boxin tiedostopakettia. 
 
 klo 20:40 Poistin aikaisemmin asennetun Oracle virtual Boxin koneen työpöydältä.
@@ -33,7 +35,14 @@ klo 20:45 Tarkastin koneeni suorituskyvyn CTRL+alt+del yhdistelmällä ja valits
 klo 20:52 Poistin oracle virtual Boxin (Oracle Vm VirtualBox 7.0.2) Ohjauspaneelin kautta (Ohjauspaneeli > ohjelmat > Ohjelmat ja toiminnot)
  klikkaamalla ohjelman kohdalla hiiren vasemmalla puolella ja valitsemalla "Poista asennus", tietokone kysyi varmistusviestillä haluanko todella poistaa ohjelman. Vastasin kyllä. 
  
-klo 21:00 etsin aiemmin ladatusta tiedostoista Oracle -hakusanalla ohjelmapakettia. Olen ladannut paketin virtualbox-7.0.2-installer 
+klo 21:00 etsin aiemmin ladatusta tiedostoista Oracle -hakusanalla ohjelmapakettia. Olen ladannut paketin VirtualBox-7.0.10.158379-Win, jonka suoritin järjestelmävalvojana. Sallin ohjelman tehdä muutoksia koneeseen järjestelmävalvojana.  
+
+ ![oracle vizard](https://github.com/VaMaija/Linux2024/assets/142913118/2e96e38d-4641-4042-8a1e-dfe78b71299c)
+ valitsin Next ja ohjasin ohjelman asentumaan c -asemaan (Location:C:\Program Files\Oracle\VirtualBox\ )
+ 
+ 
+ 
+
 
 
 
