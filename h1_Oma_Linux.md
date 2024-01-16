@@ -26,7 +26,7 @@ Avoimeen lähdekoodin (**Open source**) ohjelman lähdekoodi on yleensä ilmaine
 
 #### Virtuaalikone: 
 
-asennus 16.1.2024 Käytössäni on Cimokselta käytettynä hankittu HP Elitebook. Tein asennustyön kotonani Nurmijärvellä käyttäen matkapuhelimen verkkoyhteyttä kodin wlanin ollessa remontissa. Tästä syystä käytin koneeseeni aiemmin ladattua Oracle virtual Boxin tiedostopakettia. 
+asennus 16.1.2024 Käytössäni on Cimokselta käytettynä hankittu HP Elitebook. Tein asennustyön kotonani Uudellamaalla käyttäen matkapuhelimen verkkoyhteyttä wlanin ollessa remontissa. Tästä syystä käytin koneeseeni aiemmin ladattua Oracle virtual Boxin tiedostopakettia. 
 
 klo 20:40 Poistin aikaisemmin asennetun Oracle virtual Boxin koneen työpöydältä.
 
@@ -59,6 +59,11 @@ Hyväksyin sen, että virtualbox asennetaan c-asemalle (C:\Program Files\Oracle\
 klo 22.25 Virtuaalikone on asentunut. Latasin VirtualBox 7.0.14 Oracle VM VirtualBox Extension Packin, mutta en asentanut sitä vielä, koska se pyysi pääsyä isännöimään kameraa ja salaamaan tiedostojani. Mahdollisen kiristyshaittaohjelman vuoksi en ottanut ohjelmaa käyttöön.
 
 ![extension pack](https://github.com/VaMaija/Linux2024/assets/142913118/f7dfc2be-d889-4870-9333-f8a28bcfe9ab) 
+
+#### Linux virtuaalikoneeseen:
+
+klo 22.39 Kaivoin ladatuista tiedoistoista aiemmin päivällä tunnilla lataamani debian Liven, johon oli suora linkki [Tero Karvisen sivuilla](
+
 
 
 
