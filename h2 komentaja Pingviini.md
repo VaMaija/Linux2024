@@ -65,8 +65,16 @@ Selitykset:
   - PnP = Plug & Play -laitteiden input reitti
   - Scsi1 kovalevy
   - Cd-rom levykeasema (virtuaalikoneella, koska omassa ei ole)
-  - GPU: SVGA II Adapter on virtuaalikoneelle asennettu /Linuxmint.com
-  - 
+  - GPU: SVGA II Adapter on virtuaalikoneelle asennettu sovitin /Linuxmint.com
+  - Ethernet controller > internet ajurit
+  - Sisääntuloportti 9 VirtuaaliBoxin hiiri
+  - sisääntuloportti 8 tietokoneen kaiuttimen sisääntulo
+  - sisääntuloportti 5 
+  - sisääntuloportti 6
+  - sisääntuloportti 5
+  - sisääntuloportti 4
+  - sisääntuloportti 3
+  - sisääntuloportti 0
 
 
 
