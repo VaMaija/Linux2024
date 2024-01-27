@@ -73,7 +73,7 @@ Selitykset:
       - 0/100/5 card 0 multimedia äänikortti
       - 0/100/6 usb ajuri KeyLargo
           -usb 0/100/6/1 OCHI PCI isäntä, joka toimii usb2 tukena /host controller
-            - 0/100/6/1/1 sisääntuloportti 10 Virtaaliboxin Usb Tablet parantaa hiiren käytettävyyttä raudan ja virtuaalikoneen välillä. /ChatGPT
+            - 0/100/6/1/1 sisääntuloportti 10 Virtaaliboxin Usb Tablet parantaa hiiren käytettävyyttä raudan ja virtuaalikoneen välillä. /ChatGPT  
     
   
   - sisääntuloportti 8 tietokoneen kaiuttimen sisääntulo
