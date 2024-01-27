@@ -1,7 +1,7 @@
 ## X) Komennot tiivistettynä: 
 
 $ -merkkiä ei tarvitse itse kirjoittaa, se on komentorivissä automaattisesti:
-  
+  **$ apt-cache search** etsitämäsana etsii ohjelmasta kyseisen hakusanan mukaan.  
   **$ pwd** näyttää nykyisen hakemiston.  
   **$ ls** näyttää kansion sisällön.  
   **$ cd /** siirtyy omaan kotihakemistoosi.   
@@ -73,7 +73,7 @@ Selitykset:
   
   
   
-  **$ apt-cache search** etsitämäsana etsii ohjelmasta kyseisen hakusanan mukaan.  
+    
 
 Lähteet: 
 X)
