@@ -1,4 +1,4 @@
-## X) komennot tiivistettynä: 
+## X) Komennot tiivistettynä: 
 
 $ -merkkiä ei tarvitse itse kirjoittaa, se on komentorivissä automaattisesti:
   
@@ -49,6 +49,12 @@ $ -merkkiä ei tarvitse itse kirjoittaa, se on komentorivissä automaattisesti:
 ## A) Asenna Micro -editori
 
 ![Micro tekstieditori](https://github.com/VaMaija/Linux2024/assets/142913118/acfc8ca8-482b-4e01-a922-df2c9d9fe24e)
+
+## B) Asenna lshw ja selitä raudan speksit
+
+![LSHW](https://github.com/VaMaija/Linux2024/assets/142913118/d9e3230a-4d1c-4b90-873e-7e6e947a4c58)
+
+
 
 
 
