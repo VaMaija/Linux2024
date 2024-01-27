@@ -6,9 +6,9 @@ $ -merkkiä ei tarvitse itse kirjoittaa, se on komentorivissä automaattisesti:
   **$ pwd** näyttää nykyisen hakemiston.  
   **$ ls** näyttää kansion sisällön.  
   **$ cd /** siirtyy omaan kotihakemistoosi.   
-  **$ cd /kansionnnimi/** siirtää sinut haluttuun kansioon.   
+  **$ cd /kansionnimi/** siirtää sinut haluttuun kansioon.   
   **$ cd ..** siirtää sinut kansiopolussa yhden kansion taaksepäin.  
-  **$ less koira.txt** näyttää koira.txt tekstin (välilyönnillä eteenpäin; b edellnen sivu, / etsii tekstistä ja q poistuu tekstiistä)
+  **$ less koira.txt** näyttää koira.txt tekstin (välilyönnillä eteenpäin; b edellinen sivu, / etsii tekstistä ja q poistuu tekstiistä)
 
   -kaikkien komentojen toiminnot voidaan lukea komentonäytöllä yksi näytöllinen kerrallaan |less  -päätteellä. 
 
