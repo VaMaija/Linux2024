@@ -31,6 +31,9 @@ $ -merkkiä ei tarvitse itse kirjoittaa, se on komentorivissä automaattisesti:
 
 ### Apua!
 
+  **$ man ls** näyttää ohjesivut.  
+     **$ ls --help** lyhennetty apukomento 
+     **$ wgrt -h** lyhennetty apukomento 
 
   
   
