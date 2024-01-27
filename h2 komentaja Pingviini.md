@@ -8,9 +8,9 @@ $ -merkkiä ei tarvitse itse kirjoittaa, se on komentorivissä automaattisesti:
 
 **$ ls** näyttää kansion sisällön
 
-**$ cd /** siirtyy omaan kotihakemistoosi /
-**$ cd /kansionnnimi/** siirtää sinut haluttuun kansioon /
-**$ cd ..** siirtää sinut kansiopolussa yhden kansion taaksepäin. /
+**$ cd /** siirtyy omaan kotihakemistoosi #
+**$ cd /kansionnnimi/** siirtää sinut haluttuun kansioon #
+**$ cd ..** siirtää sinut kansiopolussa yhden kansion taaksepäin. #
 
 
 **$ apt-cache search** etsitämäsana etsii ohjelmasta kyseisen hakusanan mukaan.  
