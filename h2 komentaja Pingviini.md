@@ -17,8 +17,8 @@ $ -merkkiä ei tarvitse itse kirjoittaa, se on komentorivissä automaattisesti:
   Tekstieditorit: Nano ja pico avaavat tekstitiedoston **$ nano teksti.txt** tai **$ pico teksti.txt**  
   **$ mkdir UUSIKANSIO** luo uuden hakemistokansion.  
   **$ mv VANHANIMI UUSINIMI** siirtää kansion tai tiedoston sijaintia, tai jos sijaintia ei ole luotu nimeään kansion tai tiedoston uuden nimen mukaan.  Jos käytössä on jo UUSINIMI -niminen kansio, niin se ylikirjoitetaan erillistä lupaa kysymättä.  
-  **$ mv UUSIJUTTU VANHAKANSIO/** Siirtää tiedoston annettuun kansioon. 
-  **  $ cp -r ALKUPERÄINEN KOPIO** Alkuperäinen kopioidaan sisältönsä kanssa. -r tarkoittaa recursivea. Käy läpi kaikki alihakemistojen tiedostot.  
+  **$ mv UUSIJUTTU VANHAKANSIO/** Siirtää tiedoston annettuun kansioon.   
+  **$ cp -r ALKUPERÄINEN KOPIO** Alkuperäinen kopioidaan sisältönsä kanssa. -r tarkoittaa recursivea. Käy läpi kaikki alihakemistojen tiedostot.  
   
   
   
