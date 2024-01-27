@@ -33,7 +33,7 @@ $ -merkkiä ei tarvitse itse kirjoittaa, se on komentorivissä automaattisesti:
 
   **$ man ls** näyttää ohjesivut.  
      **$ ls --help** lyhennetty apukomento 
-     **$ wgrt -h** lyhennetty apukomento 
+     **$ wget -h** lyhennetty apukomento 
 
   
   
