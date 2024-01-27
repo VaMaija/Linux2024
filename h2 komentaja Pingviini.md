@@ -67,13 +67,13 @@ Selitykset:
           - 0/100/1.1 Scsi1 kovalevy
               - 0/100/1.1/0.0.0 Cd-rom levykeasema
                 -0/100/1.1/0.0.0/0 levy 
-  - GPU: SVGA II Adapter on virtuaalikoneelle asennettu sovitin /Linuxmint.com
-  - Ethernet controller > internet ajurit
-  - Sisääntuloportti 9 VirtuaaliBoxin hiiri
-  - card 0 multimedia äänikortti
-  - usb ajuri KeyLargo
-      -usb 2 OCHI PCI isäntä, joka toimii usb2 tukena /host controller
-        -sisääntuloportti 10 Virtaaliboxin Usb Tablet parantaa hiiren käytettävyyttä raudan ja virtuaalikoneen välillä. /ChatGPT
+      - 0/100/2 GPU: SVGA II Adapter on virtuaalikoneelle asennettu sovitin /Linuxmint.com
+      - 0/100/3 Ethernet controller > lähiverkon ajurit
+      - 0/100/4 Sisääntuloportti 9 VirtuaaliBoxin hiiri
+      - 0/100/5 card 0 multimedia äänikortti
+      - 0/100/6 usb ajuri KeyLargo
+          -usb 0/100/6/1 OCHI PCI isäntä, joka toimii usb2 tukena /host controller
+            - 0/100/6/1/1 sisääntuloportti 10 Virtaaliboxin Usb Tablet parantaa hiiren käytettävyyttä raudan ja virtuaalikoneen välillä. /ChatGPT
     
   
   - sisääntuloportti 8 tietokoneen kaiuttimen sisääntulo
