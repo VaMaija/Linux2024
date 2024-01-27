@@ -56,8 +56,11 @@ $ -merkkiä ei tarvitse itse kirjoittaa, se on komentorivissä automaattisesti:
 ![hardware](https://github.com/VaMaija/Linux2024/assets/142913118/bc772702-2e5f-4ca4-bfd8-f16859205bab)
 
 Selitykset: 
-  Järjestemä toimii VirtualBox alustalla, siinä on käynnistysmuistia 128 kilotavua.  
-  keskusmuistia on 4 gigatavua (asennettu virtuaalikoneen yhteydessä)
+  - Järjestemä toimii VirtualBox alustalla, siinä on käynnistysmuistia 128 kilotavua.  
+  - Keskusmuistia on 4 gigatavua
+  - Prosessorina näyttää fyysisen koneen prosessorin tiedot.
+  - Bridge Intel 440FX - 82441 PMX pohjoissilta, toimen päämikropiiri (muistiohjain keskusmuistille)
+  - Bridge 82371SB Piix3 ISA eteläsilta, toinen mikropiiri 
 
 
 
@@ -78,6 +81,11 @@ X)
   Linux.f/Wiki https://www.linux.fi/wiki/Luokka:Komentorivin_perusty%C3%B6kalut luettu 27.1.2024  
   Karvinen, T  https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited luettu 27.1.2024 tekijä Tero Karvinen.  
   Mäntysalo, J https://homepages.tuni.fi/jori.mantysalo/jutut/unix/grep.html luettu 27.1.2024 Tekijä Jori Mäntysalo  
+
+B) 
+
+  bridge 440FX https://en.wikipedia.org/wiki/Intel_440FX luettu 27.1.2024
+  bridge 82371SB https://en.wikipedia.org/wiki/PIIX luettu 27.1.2024 
 
 
 
