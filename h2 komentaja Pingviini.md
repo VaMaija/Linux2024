@@ -89,20 +89,14 @@ Selitykset:
   - /6 sisääntuloportti 8 tietokoneen kaiuttimen sisääntulo
   
   
-   
+## c) Asenna kolme eri ohjelmaa komentoriviltä ja käytä ohjelmia: 
+
+$ sudo apt-get install gnome
+
+![mahong](https://github.com/VaMaija/Linux2024/assets/142913118/b8588c52-84e3-4a60-af74-92b892931ce3)
 
 
 
-
-
-
-
-  
-  
-  
-  
-  
-    
 
 Lähteet: 
 X)
