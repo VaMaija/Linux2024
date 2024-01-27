@@ -53,6 +53,11 @@ $ -merkkiä ei tarvitse itse kirjoittaa, se on komentorivissä automaattisesti:
 ## B) Asenna lshw ja selitä raudan speksit
 
 ![LSHW](https://github.com/VaMaija/Linux2024/assets/142913118/d9e3230a-4d1c-4b90-873e-7e6e947a4c58)
+![hardware](https://github.com/VaMaija/Linux2024/assets/142913118/bc772702-2e5f-4ca4-bfd8-f16859205bab)
+
+Selitykset: 
+  Järjestemä toimii VirtualBox alustalla, siinä on käynnistysmuistia 128 kilotavua.  
+  keskusmuistia on 4 gigatavua (asennettu virtuaalikoneen yhteydessä)
 
 
 
