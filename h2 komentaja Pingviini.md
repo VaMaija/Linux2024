@@ -1,6 +1,7 @@
 ## X) komennot tiivistettynä: 
 
-$ -merkkiä ei tarvitse itse kirjoittaa, se on komentorivissä automaattisesti. 
+$ -merkkiä ei tarvitse itse kirjoittaa, se on komentorivissä automaattisesti:
+
 **$ sudo apt-get update**  päivittää ohjelmat ajantasalle, kannattaa käyttää aina aluksi. 
 
 **$ pwd** näyttää nykyisen hakemiston 
