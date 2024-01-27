@@ -46,6 +46,13 @@ $ -merkkiä ei tarvitse itse kirjoittaa, se on komentorivissä automaattisesti:
   apt-cache search 
 
 
+## A) Asenna Micro -editori
+
+![Micro tekstieditori](https://github.com/VaMaija/Linux2024/assets/142913118/acfc8ca8-482b-4e01-a922-df2c9d9fe24e)
+
+
+
+
 
   
   
