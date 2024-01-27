@@ -63,6 +63,9 @@ Selitykset:
   - Bridge Intel 440FX - 82441 PMX pohjoissilta, toimen päämikropiiri (muistiohjain keskusmuistille) /Wikipedia  
   - Bridge 82371SB Piix3 ISA eteläsilta, toinen mikropiiri /Wikipedia
   - PnP = Plug & Play -laitteiden input reitti
+  - Scsi1 kovalevy
+  - Cd-rom levykeasema (virtuaalikoneella, koska omassa ei ole)
+  - GPU: SVGA II Adapter on virtuaalikoneelle asennettu /Linuxmint.com
   - 
 
 
@@ -89,6 +92,7 @@ B)
 
   bridge 440FX https://en.wikipedia.org/wiki/Intel_440FX luettu 27.1.2024
   bridge 82371SB https://en.wikipedia.org/wiki/PIIX luettu 27.1.2024 
+  Linuxmint.com https://forums.linuxmint.com/viewtopic.php?t=308018 luettu 27.1.2024 
 
 
 
