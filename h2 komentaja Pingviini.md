@@ -1,8 +1,7 @@
 ## X) komennot tiivistettynä: 
 
 $ -merkkiä ei tarvitse itse kirjoittaa, se on komentorivissä automaattisesti:
-
-  **$ sudo apt-get update**  päivittää ohjelmat ajantasalle, kannattaa käyttää aina aluksi.  
+  
   **$ pwd** näyttää nykyisen hakemiston.  
   **$ ls** näyttää kansion sisällön.  
   **$ cd /** siirtyy omaan kotihakemistoosi.   
@@ -40,6 +39,13 @@ $ -merkkiä ei tarvitse itse kirjoittaa, se on komentorivissä automaattisesti:
   Käyttämällä kaksi kertaa tabulaattoria ja voit nähdä mitä voit kirjoittaa seuraavaksi. Tab myös auttaa tiedostojen nimien kirjoittamisessa ja nuolinäppäimillä voit valita listasta oikean.   
   **$ history** näyttää komennot joita on aiemmin käytetty komentorivillä ja   
     **ctrl + R** etsii historiakomennoista. 
+
+### Paketin hallinta ja asennukset
+
+  **$ sudo apt-get update**  päivittää ohjelmat ajantasalle, kannattaa käyttää aina aluksi.  
+  apt-cache search 
+
+
 
   
   
