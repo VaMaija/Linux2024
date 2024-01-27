@@ -8,6 +8,11 @@ $ -merkkiä ei tarvitse itse kirjoittaa, se on komentorivissä automaattisesti:
   **$ cd /** siirtyy omaan kotihakemistoosi.   
   **$ cd /kansionnnimi/** siirtää sinut haluttuun kansioon.   
   **$ cd ..** siirtää sinut kansiopolussa yhden kansion taaksepäin.  
+  **$ less koira.txt** näyttää koira.txt tekstin (välilyönnillä eteenpäin; b edellnen sivu, / etsii tekstistä ja q poistuu tekstiistä)
+
+  -kaikkien komentojen toiminnot voidaan lukea komentonäytöllä yksi näytöllinen kerrallaan |less  -päätteellä. 
+
+  
 
 **$ apt-cache search** etsitämäsana etsii ohjelmasta kyseisen hakusanan mukaan.  
 
