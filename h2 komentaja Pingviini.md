@@ -61,20 +61,24 @@ Selitykset:
   - Keskusmuistia on 4 gigatavua
   - Prosessorina näyttää fyysisen koneen prosessorin tiedot.
   - Bridge Intel 440FX - 82441 PMX pohjoissilta, toimen päämikropiiri (muistiohjain keskusmuistille) /Wikipedia  
-  - Bridge 82371SB Piix3 ISA eteläsilta, toinen mikropiiri /Wikipedia
-  - PnP = Plug & Play -laitteiden input reitti
-  - Scsi1 kovalevy
-  - Cd-rom levykeasema (virtuaalikoneella, koska omassa ei ole)
+      - Bridge 82371SB Piix3 ISA eteläsilta, toinen mikropiiri /Wikipedia, sillassa kiinnitettynä:  
+          - PnP = Plug & Play -laitteiden input reitti
+          - Scsi1 kovalevy
+          - Cd-rom levykeasema (virtuaalikoneella, koska omassa ei ole)
   - GPU: SVGA II Adapter on virtuaalikoneelle asennettu sovitin /Linuxmint.com
   - Ethernet controller > internet ajurit
   - Sisääntuloportti 9 VirtuaaliBoxin hiiri
+  - card 0 multimedia äänikortti
+  - usb ajuri KeyLargo
+      -usb 2 OCHI PCI isäntä, joka toimii usb2 tukena /host controller
+        -sisääntuloportti 10 Virtaaliboxin Usb Tablet parantaa hiiren käytettävyyttä raudan ja virtuaalikoneen välillä. /ChatGPT
+    
+  
   - sisääntuloportti 8 tietokoneen kaiuttimen sisääntulo
-  - sisääntuloportti 5 
-  - sisääntuloportti 6
-  - sisääntuloportti 5
-  - sisääntuloportti 4
-  - sisääntuloportti 3
-  - sisääntuloportti 0
+  - sisääntuloportti 5 hiiren ajurit  
+  - sisääntuloportti 4 lepotila
+  - sisääntuloportti 3 video bus, kuvadatan siirto? 
+  - sisääntuloportti 0 näppäimistön ajurit ja käännösautomaatio. 
 
 
 
@@ -101,6 +105,8 @@ B)
   bridge 440FX https://en.wikipedia.org/wiki/Intel_440FX luettu 27.1.2024  
   bridge 82371SB https://en.wikipedia.org/wiki/PIIX luettu 27.1.2024  
   Linuxmint.com https://forums.linuxmint.com/viewtopic.php?t=308018 luettu 27.1.2024 
+  host controller https://www.sciencedirect.com/topics/computer-science/host-controller luettu 27.1.2024
+  chatGPT https://chat.openai.com/c/b85eaa04-fb35-47b4-b203-1576a6dc96f1 kysytty 27.1.2024: "mitä virtuaaliboxin usb tablet tekee?" 
 
 
 
