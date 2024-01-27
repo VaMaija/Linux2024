@@ -60,8 +60,8 @@ Selitykset:
   - Järjestemä toimii VirtualBox alustalla, siinä on käynnistysmuistia 128 kilotavua.  
   - Keskusmuistia on 4 gigatavua
   - Prosessorina näyttää fyysisen koneen prosessorin tiedot.
-  - Bridge Intel 440FX - 82441 PMX pohjoissilta, toimen päämikropiiri (muistiohjain keskusmuistille)
-  - Bridge 82371SB Piix3 ISA eteläsilta, toinen mikropiiri 
+  - Bridge Intel 440FX - 82441 PMX pohjoissilta, toimen päämikropiiri (muistiohjain keskusmuistille) /Wikipedia  
+  - Bridge 82371SB Piix3 ISA eteläsilta, toinen mikropiiri /Wikipedia 
 
 
 
