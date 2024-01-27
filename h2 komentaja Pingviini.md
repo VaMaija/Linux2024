@@ -3,11 +3,11 @@
 $ -merkkiä ei tarvitse itse kirjoittaa, se on komentorivissä automaattisesti:
 
   **$ sudo apt-get update**  päivittää ohjelmat ajantasalle, kannattaa käyttää aina aluksi. 
-  **$ pwd** näyttää nykyisen hakemiston 
-  **$ ls** näyttää kansion sisällön
-  **$ cd /** siirtyy omaan kotihakemistoosi 
-  **$ cd /kansionnnimi/** siirtää sinut haluttuun kansioon 
-  **$ cd ..** siirtää sinut kansiopolussa yhden kansion taaksepäin. 
+ .. **$ pwd** näyttää nykyisen hakemiston. 
+ .. **$ ls** näyttää kansion sisällön
+ .. **$ cd /** siirtyy omaan kotihakemistoosi 
+ .. **$ cd /kansionnnimi/** siirtää sinut haluttuun kansioon 
+ .. **$ cd ..** siirtää sinut kansiopolussa yhden kansion taaksepäin. 
 
 
 **$ apt-cache search** etsitämäsana etsii ohjelmasta kyseisen hakusanan mukaan.  
