@@ -18,7 +18,21 @@ $ -merkkiä ei tarvitse itse kirjoittaa, se on komentorivissä automaattisesti:
   **$ mkdir UUSIKANSIO** luo uuden hakemistokansion.  
   **$ mv VANHANIMI UUSINIMI** siirtää kansion tai tiedoston sijaintia, tai jos sijaintia ei ole luotu nimeään kansion tai tiedoston uuden nimen mukaan.  Jos käytössä on jo UUSINIMI -niminen kansio, niin se ylikirjoitetaan erillistä lupaa kysymättä.  
   **$ mv UUSIJUTTU VANHAKANSIO/** Siirtää tiedoston annettuun kansioon.   
-  **$ cp -r ALKUPERÄINEN KOPIO** Alkuperäinen kopioidaan sisältönsä kanssa. -r tarkoittaa recursivea. Käy läpi kaikki alihakemistojen tiedostot.  
+  **$ cp -r ALKUPERÄINEN KOPIO** Alkuperäinen kopioidaan sisältönsä kanssa. -r tarkoittaa recursivea eli käy läpi kaikki alihakemistojen tiedostot. /Mäntysalo, J 
+  **$ rmdir** Tyhjäkansio poistaa tyhjän kansion nimeltä Tyhjäkansio.  
+  **$ rm tämätiedosto** poistaa kyseisen tiedoston.  
+  **$ rm -r tämäkansiojasensisältö** poistaa kansion ja sen sisällön.  
+
+### SSH Etäkäyttö
+
+  **$ ssh maija@serveri.com** avaa käyttäjän maija serverillä serveri.com. Voit toimia etäkoneen komentorivillä ja vastaus palautuu sinulle **W** kirjaimella näet kuka muu on etäyhteydellä ko koneella. 
+  **remotecomputer$ exit** poistuu etäkäytöstä omalle koneelle.  
+  **$ scp -r KANSIO maija@serveri.com:public-html/** kopioi KANSIOn omalta koneelta käyttäjän maija serveri.com etäkäyttökoneelle public_html/ -kansioon.  
+
+### Apua!
+
+
+  
   
   
   
@@ -29,8 +43,8 @@ Lähteet:
 X)
 
   Linux.f/Wiki https://www.linux.fi/wiki/Luokka:Komentorivin_perusty%C3%B6kalut luettu 27.1.2024  
-  Terokarvinen.com/command line basics revisited  https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited luettu 27.1.2024 tekijä Tero Karvinen.  
-  https://homepages.tuni.fi/jori.mantysalo/jutut/unix/grep.html luettu 27.1.2024 Tekijä Jori Mäntysalo  
+  Karvinen, T  https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited luettu 27.1.2024 tekijä Tero Karvinen.  
+  Mäntysalo, J https://homepages.tuni.fi/jori.mantysalo/jutut/unix/grep.html luettu 27.1.2024 Tekijä Jori Mäntysalo  
 
 
 
