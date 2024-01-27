@@ -95,6 +95,14 @@ $ sudo apt-get install gnome
 
 ![mahong](https://github.com/VaMaija/Linux2024/assets/142913118/b8588c52-84e3-4a60-af74-92b892931ce3)
 
+$ sudo apt-get install nano
+
+![nano tekstieditori](https://github.com/VaMaija/Linux2024/assets/142913118/062f36a9-77f1-4ef7-9a1f-882e0a0f5a1f)
+
+
+
+
+
 
 
 
@@ -112,6 +120,10 @@ B)
   Linuxmint.com https://forums.linuxmint.com/viewtopic.php?t=308018 luettu 27.1.2024 
   host controller https://www.sciencedirect.com/topics/computer-science/host-controller luettu 27.1.2024
   chatGPT https://chat.openai.com/c/b85eaa04-fb35-47b4-b203-1576a6dc96f1 kysytty 27.1.2024: "mitä virtuaaliboxin usb tablet tekee?" 
+
+C) 
+
+ 
 
 
 
