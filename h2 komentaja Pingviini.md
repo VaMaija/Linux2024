@@ -35,6 +35,12 @@ $ -merkkiä ei tarvitse itse kirjoittaa, se on komentorivissä automaattisesti:
      **$ ls --help** lyhennetty apukomento 
      **$ wget -h** lyhennetty apukomento 
 
+### Historia ja arvuuttaja 
+
+  Käyttämällä kaksi kertaa tabulaattoria ja voit nähdä mitä voit kirjoittaa seuraavaksi. Tab myös auttaa tiedostojen nimien kirjoittamisessa ja nuolinäppäimillä voit valita listasta oikean. 
+  **$ history** näyttää komennot joita on aiemmin käytetty komentorivillä 
+     ctrl + R etsii historiakomennoista. 
+
   
   
   
