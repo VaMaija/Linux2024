@@ -91,13 +91,15 @@ Selitykset:
   
 ## c) Asenna kolme eri ohjelmaa komentoriviltä ja käytä ohjelmia: 
 
-$ sudo apt-get install gnome
+ c1) $ sudo apt-get install gnome
 
 ![mahong](https://github.com/VaMaija/Linux2024/assets/142913118/b8588c52-84e3-4a60-af74-92b892931ce3)
 
-$ sudo apt-get install nano
+c2) $ sudo apt-get install nano
 
 ![nano tekstieditori](https://github.com/VaMaija/Linux2024/assets/142913118/062f36a9-77f1-4ef7-9a1f-882e0a0f5a1f)
+
+
 
 
 
