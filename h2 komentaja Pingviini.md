@@ -12,11 +12,15 @@ $ -merkkiä ei tarvitse itse kirjoittaa, se on komentorivissä automaattisesti:
 
   -kaikkien komentojen toiminnot voidaan lukea komentonäytöllä yksi näytöllinen kerrallaan |less  -päätteellä. 
 
-*** Tiedostojen käsittely
+### Tiedostojen käsittely
 
+  Tekstieditorit: Nano ja pico avaavat tekstitiedoston **$ nano teksti.txt** tai **$ pico teksti.txt**  
+  **$ mkdir UUSIKANSIO** luo uuden hakemistokansion.  
+  **$ mv VANHANIMI UUSINIMI** siirtää kansion tai tiedoston sijaintia, tai jos sijaintia ei ole luotu nimeään kansion tai tiedoston uuden nimen mukaan.  
   
-
-**$ apt-cache search** etsitämäsana etsii ohjelmasta kyseisen hakusanan mukaan.  
+  
+  
+  **$ apt-cache search** etsitämäsana etsii ohjelmasta kyseisen hakusanan mukaan.  
 
 Lähteet: 
 X)
