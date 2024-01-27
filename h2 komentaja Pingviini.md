@@ -60,27 +60,36 @@ Selitykset:
   - Järjestemä toimii VirtualBox alustalla, siinä on käynnistysmuistia 128 kilotavua.  
   - Keskusmuistia on 4 gigatavua
   - Prosessorina näyttää fyysisen koneen prosessorin tiedot.
-  - 0/100 Bridge Intel 440FX - 82441 PMX pohjoissilta, toimen päämikropiiri (muistiohjain keskusmuistille) /Wikipedia  
-      - 0/100/1 Bridge 82371SB Piix3 ISA eteläsilta, toinen mikropiiri /Wikipedia, sillassa kiinnitettynä:  
-          - 0/100/1/0 PnP = Plug & Play -laitteiden input reitti
-          - 0/100/1/1 PnP = Plug & Play -laitteiden input reitti
-          - 0/100/1.1 Scsi1 kovalevy
-              - 0/100/1.1/0.0.0 Cd-rom levykeasema
-                -0/100/1.1/0.0.0/0 levy 
-      - 0/100/2 GPU: SVGA II Adapter on virtuaalikoneelle asennettu sovitin /Linuxmint.com
-      - 0/100/3 Ethernet controller > lähiverkon ajurit
-      - 0/100/4 Sisääntuloportti 9 VirtuaaliBoxin hiiri
-      - 0/100/5 card 0 multimedia äänikortti
-      - 0/100/6 usb ajuri KeyLargo
-          -usb 0/100/6/1 OCHI PCI isäntä, joka toimii usb2 tukena /host controller  
-            - 0/100/6/1/1 sisääntuloportti 10 Virtaaliboxin Usb Tablet parantaa hiiren käytettävyyttä raudan ja virtuaalikoneen välillä. /ChatGPT  
-    
+  - /0/100 Bridge Intel 440FX - 82441 PMX pohjoissilta, toimen päämikropiiri (muistiohjain keskusmuistille) /Wikipedia  
+      - /0/100/1 Bridge 82371SB Piix3 ISA eteläsilta, toinen mikropiiri /Wikipedia, sillassa kiinnitettynä:  
+          - /0/100/1/0 PnP = Plug & Play -laitteiden input reitti
+          - /0/100/1/1 PnP = Plug & Play -laitteiden input reitti
+          - /0/100/1.1 Scsi1 kovalevy
+              - /0/100/1.1/0.0.0 Cd-rom levykeasema
+                - /0/100/1.1/0.0.0/0 levy 
+      - /0/100/2 GPU: SVGA II Adapter on virtuaalikoneelle asennettu sovitin /Linuxmint.com
+      - /0/100/3 Ethernet controller > lähiverkon ajurit
+      - /0/100/4 Sisääntuloportti 9 VirtuaaliBoxin hiiri
+      - /0/100/5 card 0 multimedia äänikortti
+      - /0/100/6 usb ajuri KeyLargo
+          - /0/100/6/1 OCHI PCI isäntä, joka toimii usb2 tukena /host controller  
+            - /0/100/6/1/1 sisääntuloportti 10 Virtaaliboxin Usb Tablet parantaa hiiren käytettävyyttä raudan ja virtuaalikoneen välillä. /ChatGPT
+      - /0/100/7 Piix4 Acpi -silta.
+      - /0/100/b bus Usb käyttöliittymä
+          - /0/100/b/1 Usb 1
+      - /0/100/d sataliittymä muistiin  
+        - /0/100/d/0.0.0 liittymä sata-kaapelin kautta koneen virtuaalimuistiin
+            - /0/100/d/0.0.0/1 virtuaalimuistin sisällä oleva 41 gigatavun muisti ja
+            - /0/100/d/0.0.0/2 swap -muistin määrä 840 megatavua
+  - /1 sisääntuloportti 0 näppäimistön ajurit ja käännösautomaatio.  
+  - /2 sisääntuloportti 2 virtanäppäin  
+  - /3 sisääntuloportti 3 video bus, kuvadatan siirto?
+  - /4 sisääntuloportti 4 lepotila
+  - /5 sisääntuloportti 5 hiiren ajurit  
+  - /6 sisääntuloportti 8 tietokoneen kaiuttimen sisääntulo
   
-  - sisääntuloportti 8 tietokoneen kaiuttimen sisääntulo
-  - sisääntuloportti 5 hiiren ajurit  
-  - sisääntuloportti 4 lepotila
-  - sisääntuloportti 3 video bus, kuvadatan siirto? 
-  - sisääntuloportti 0 näppäimistön ajurit ja käännösautomaatio. 
+  
+   
 
 
 
