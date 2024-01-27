@@ -17,8 +17,8 @@ $ -merkkiä ei tarvitse itse kirjoittaa, se on komentorivissä automaattisesti:
   Tekstieditorit: Nano ja pico avaavat tekstitiedoston **$ nano teksti.txt** tai **$ pico teksti.txt**  
   **$ mkdir UUSIKANSIO** luo uuden hakemistokansion.  
   **$ mv VANHANIMI UUSINIMI** siirtää kansion tai tiedoston sijaintia, tai jos sijaintia ei ole luotu nimeään kansion tai tiedoston uuden nimen mukaan.  Jos käytössä on jo UUSINIMI -niminen kansio, niin se ylikirjoitetaan erillistä lupaa kysymättä.  
-  **$ mv UUSIJUTTU VANHAKANSIO/** Siirtää tiedoston annettuun kansioon.  
-
+  **$ mv UUSIJUTTU VANHAKANSIO/** Siirtää tiedoston annettuun kansioon. 
+  $ cp -r ALKUPERÄINEN KOPIO Alkuperäinen kopioidaan sisältönsä kanssa. -r tarkoittaa recursivea. 
   
   
   
@@ -28,9 +28,8 @@ $ -merkkiä ei tarvitse itse kirjoittaa, se on komentorivissä automaattisesti:
 Lähteet: 
 X)
   Linux.f/Wiki https://www.linux.fi/wiki/Luokka:Komentorivin_perusty%C3%B6kalut luettu 27.1.2024  
-  Terokarvinen.com/command line basics revisited  https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited luettu 27.1.2024  
-
-
+  Terokarvinen.com/command line basics revisited  https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited luettu 27.1.2024 tekijä Tero Karvinen.  
+  https://homepages.tuni.fi/jori.mantysalo/jutut/unix/grep.html luettu 27.1.2024 Tekijä Jori Mäntysalo  
 
 
 
