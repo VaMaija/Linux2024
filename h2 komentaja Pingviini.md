@@ -12,6 +12,8 @@ $ -merkkiä ei tarvitse itse kirjoittaa, se on komentorivissä automaattisesti:
 
   -kaikkien komentojen toiminnot voidaan lukea komentonäytöllä yksi näytöllinen kerrallaan |less  -päätteellä. 
 
+*** Tiedostojen käsittely
+
   
 
 **$ apt-cache search** etsitämäsana etsii ohjelmasta kyseisen hakusanan mukaan.  
