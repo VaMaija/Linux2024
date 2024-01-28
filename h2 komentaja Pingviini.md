@@ -140,7 +140,14 @@ grep -n "etsitämänSananSijaintitekstissä" tekstitiedosto.txt, riviltä 2 löy
 
 ![koira ja kani](https://github.com/VaMaija/Linux2024/assets/142913118/926b6b27-27b2-49e5-be4d-8ec3f4f913ed)
 
-grep 
+grep -c laskee kuinka montaa sanaa löytyy ko tekstistä  
+
+![haisunäädät](https://github.com/VaMaija/Linux2024/assets/142913118/77d0a4d6-cf52-4c33-92c1-ab7011e97111)
+
+grep -v ottaa tehstistä haisunäädät pois, mutta ilmoittaa muut rivit normaalisti  
+
+![ilman haisunäätiä](https://github.com/VaMaija/Linux2024/assets/142913118/f28d50ec-b9eb-4c54-90ca-891716215cf5)
+
 
                 
 
