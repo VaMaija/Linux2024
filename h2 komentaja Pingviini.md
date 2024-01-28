@@ -174,7 +174,7 @@ C)
 
 D) 
 
-    Kapil Bhise https://medium.com/analytics-vidhya/linux-directories-explained-75c376173947 luettu 28.1.2024 
+ Kapil Bhise https://medium.com/analytics-vidhya/linux-directories-explained-75c376173947 luettu 28.1.2024 
 
   
 
