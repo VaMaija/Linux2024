@@ -18,7 +18,7 @@ $ -merkkiä ei tarvitse itse kirjoittaa, se on komentorivissä automaattisesti:
   **$ mkdir UUSIKANSIO** luo uuden hakemistokansion.  
   **$ mv VANHANIMI UUSINIMI** siirtää kansion tai tiedoston sijaintia, tai jos sijaintia ei ole luotu nimeään kansion tai tiedoston uuden nimen mukaan.  Jos käytössä on jo UUSINIMI -niminen kansio, niin se ylikirjoitetaan erillistä lupaa kysymättä.  
   **$ mv UUSIJUTTU VANHAKANSIO/** Siirtää tiedoston annettuun kansioon.   
-  **$ cp -r ALKUPERÄINEN KOPIO** Alkuperäinen kopioidaan sisältönsä kanssa. -r tarkoittaa recursivea eli käy läpi kaikki alihakemistojen tiedostot. /Mäntysalo, J 
+  **$ cp -r ALKUPERÄINEN KOPIO** Alkuperäinen kopioidaan sisältönsä kanssa. -r tarkoittaa recursivea eli käy läpi kaikki alihakemistojen tiedostot. /Mäntysalo, J   
   **$ rmdir** Tyhjäkansio poistaa tyhjän kansion nimeltä Tyhjäkansio.  
   **$ rm tämätiedosto** poistaa kyseisen tiedoston.  
   **$ rm -r tämäkansiojasensisältö** poistaa kansion ja sen sisällön.  
