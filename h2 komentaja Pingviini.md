@@ -136,9 +136,11 @@ Kaikki Kolme kerralla:
   ![var_log](https://github.com/VaMaija/Linux2024/assets/142913118/34399ee2-d0b5-47db-877c-959392954d0e)
 
 ## E) The friendly M
-grep -n "etsitämänSananSijaintitekstissä" tekstitiedosto.txt  
+grep -n "etsitämänSananSijaintitekstissä" tekstitiedosto.txt, riviltä 2 löytyy "koira" "kani"
 
 ![koira ja kani](https://github.com/VaMaija/Linux2024/assets/142913118/926b6b27-27b2-49e5-be4d-8ec3f4f913ed)
+
+grep 
 
                 
 
@@ -181,7 +183,9 @@ D)
 
  Kapil Bhise https://medium.com/analytics-vidhya/linux-directories-explained-75c376173947 luettu 28.1.2024 
 
-  
+E)  
+
+  Youtube, Learn Linux TV https://www.youtube.com/watch?v=Tc_jntovCM0 katsottu 28.1.2024  
 
  
 
