@@ -99,9 +99,17 @@ c2) $ sudo apt-get install nano
 
 ![nano tekstieditori](https://github.com/VaMaija/Linux2024/assets/142913118/062f36a9-77f1-4ef7-9a1f-882e0a0f5a1f)
 
-c3)  
-  $ apt-cache search calculator  
-  $ Sudo apt-get install Tiemu
+c3)    
+  $ sudo apt-get install lynx  
+  $ lynx yle.fi  
+
+  ![lynx ohjelma](https://github.com/VaMaija/Linux2024/assets/142913118/e856f76b-a2aa-401f-a23d-083361296b4b)
+
+  Lynx näyttää nettiselaimen tekstimuodossa. Behold YLE uutiset TekstiTV -muodossa:
+![teksti tv](https://github.com/VaMaija/Linux2024/assets/142913118/408b5ccd-3a00-4e42-8479-e1ff79cef9a0)
+
+  
+
 
   
     
