@@ -118,10 +118,20 @@ Kaikki Kolme kerralla:
 ## D) FHS Kansiot selitettyinä: 
 
   **/**            On juurikansio, pohja kaikelle Linuxissa ei ole c- tai d- asemia kuten Windowsissa vaan kaikki on "/" kansion alla.     
+  ![root](https://github.com/VaMaija/Linux2024/assets/142913118/7fa809a8-7148-43e3-8687-d37619591f5a)
+  
   **/home/**        Kansio, joka sisältää kaikkien käyttäjien kotihakemistot.  
+  ![home](https://github.com/VaMaija/Linux2024/assets/142913118/4758e35a-bc5a-42db-b940-5f34211b960c)
+  
   **/home/maijav/**  Käyttäjän maijav koytihakemisto ja ainoa paikka, johon käyttäjä maijav voi tallentaa dataa pysyvästi.  
+  ![maijav](https://github.com/VaMaija/Linux2024/assets/142913118/2ccaf54b-378d-4e8d-8c1f-9bc4eed97cf2)
+
   **/etc/**         Kaikki järjestemän asetukset kirjattuna luettavassa muodossa.   
+  ![etc](https://github.com/VaMaija/Linux2024/assets/142913118/e4bbe4ee-5971-4228-b974-91e157a2805e)
+
   **/media/**        Hakemistokansio, johon ulkopuolinen tallennustila asennetaan automaattisesti käytettäväksi.  
+  
+  
   **/var/log/**      Hakemisto, joka sisältää erilaisia loktietoja. Se tallentaa järjestelmän eri osien tapahtumatietoja ja virheitä.  
   
                 
