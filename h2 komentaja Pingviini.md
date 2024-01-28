@@ -61,7 +61,7 @@ Selitykset:
   - Keskusmuistia on 4 gigatavua
   - Prosessorina näyttää fyysisen koneen prosessorin tiedot.
   - /0/100 Bridge Intel 440FX - 82441 PMX pohjoissilta, toimen päämikropiiri (muistiohjain keskusmuistille) /Wikipedia  
-      - /0/100/1 Bridge 82371SB Piix3 ISA eteläsilta, toinen mikropiiri /Wikipedia, sillassa kiinnitettynä:  
+      - /0/100/1 Bridge 82371SB Piix3 ISA eteläsilta, toinen mikropiiri, sillassa kiinnitettynä:  
           - /0/100/1/0 PnP = Plug & Play -laitteiden input reitti
           - /0/100/1/1 PnP = Plug & Play -laitteiden input reitti
           - /0/100/1.1 Scsi1 kovalevy
