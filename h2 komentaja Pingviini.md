@@ -148,6 +148,15 @@ grep -v ottaa tehstistä haisunäädät pois, mutta ilmoittaa muut rivit normaal
 
 ![ilman haisunäätiä](https://github.com/VaMaija/Linux2024/assets/142913118/f28d50ec-b9eb-4c54-90ca-891716215cf5)
 
+##) F) Putki |
+  
+  Komennolla cat näyttää tekstin koira.md:ssä ja putkella erotettuna sort se samalla järjestää tekstin. 
+
+![koiraputkessa](https://github.com/VaMaija/Linux2024/assets/142913118/fe443324-da03-4fc7-84ec-524282c408a4)
+
+## 
+
+
 
                 
 
