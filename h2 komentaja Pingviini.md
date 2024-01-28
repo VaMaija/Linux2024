@@ -202,7 +202,7 @@ D)
 E)  
 
   Youtube, Learn Linux TV https://www.youtube.com/watch?v=Tc_jntovCM0 katsottu 28.1.2024  
-
+  Youtube, IFocus Institute https://www.youtube.com/watch?v=3hbqDtfI3zE katsottu 28.1.2024
  
 
 
