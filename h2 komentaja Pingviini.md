@@ -133,7 +133,8 @@ Kaikki Kolme kerralla:
   ![^media](https://github.com/VaMaija/Linux2024/assets/142913118/5bf1806b-2978-4332-b0bf-e3b5105d0280)
 
   **/var/log/**      Hakemisto, joka sisältää erilaisia loktietoja. Se tallentaa järjestelmän eri osien tapahtumatietoja ja virheitä.  
-  ![var_log](https://github.com/VaMaija/Linux2024/assets/142913118/34399ee2-d0b5-47db-877c-959392954d0e)
+  ![var_log](https://github.com/VaMaija/Linux2024/assets/142913118/8f320d9d-1974-44ba-802a-dcc071c3edb2)
+
 
 ## E) The friendly M
 grep -n "etsitämänSananSijaintitekstissä" tekstitiedosto.txt, riviltä 2 löytyy "koira" "kani"
