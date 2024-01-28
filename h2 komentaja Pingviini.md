@@ -89,10 +89,10 @@ Selitykset:
   - /6 sisääntuloportti 8 tietokoneen kaiuttimen sisääntulo
   
   
-## c) Asenna kolme eri ohjelmaa komentoriviltä ja käytä ohjelmia: 
+## C) Asenna kolme eri ohjelmaa komentoriviltä ja käytä ohjelmia: 
 
  c1) $ sudo apt-get install gnome  
- graafinen käyttöliittymä (GUI)
+ graafinen käyttöliittymä (GUI) laaja ohjelmisto, asentui 10 min. 
 
 ![mahong](https://github.com/VaMaija/Linux2024/assets/142913118/b8588c52-84e3-4a60-af74-92b892931ce3)
 
@@ -109,6 +109,12 @@ c3)
 
   Lynx näyttää nettiselaimen tekstimuodossa. Behold YLE uutiset TekstiTV -muodossa:
 ![teksti tv](https://github.com/VaMaija/Linux2024/assets/142913118/408b5ccd-3a00-4e42-8479-e1ff79cef9a0)
+
+Kaikki Kolme kerralla: 
+![kolme kerralla](https://github.com/VaMaija/Linux2024/assets/142913118/5d18036d-ba58-424c-b67a-0cf0d8f956fb)
+
+
+## D) 
 
   
 
