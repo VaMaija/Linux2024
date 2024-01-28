@@ -111,10 +111,20 @@ c3)
 ![teksti tv](https://github.com/VaMaija/Linux2024/assets/142913118/408b5ccd-3a00-4e42-8479-e1ff79cef9a0)
 
 Kaikki Kolme kerralla: 
+
 ![kolme kerralla](https://github.com/VaMaija/Linux2024/assets/142913118/5d18036d-ba58-424c-b67a-0cf0d8f956fb)
 
 
-## D) 
+## D) FHS Kansiot selitettyinä: 
+
+  /              On juurikansio, pohja kaikelle Linuxissa ei ole c- tai d- asemia kuten Windowsissa vaan kaikki on "/" kansion alla.   
+  /home/         Kansio, joka sisältää kaikkien käyttäjien kotihakemistot. 
+  /home/maijav/  Käyttäjän maijav koytihakemisto ja ainoa paikka, johon käyttäjä maijav voi tallentaa dataa pysyvästi. 
+  /etc/          Kaikki järjestemän asetukset kirjattuna luettavassa muodossa. 
+  /media/        Mediatiedostot
+
+
+
 
   
 
@@ -145,6 +155,14 @@ B)
   chatGPT https://chat.openai.com/c/b85eaa04-fb35-47b4-b203-1576a6dc96f1 kysytty 27.1.2024: "mitä virtuaaliboxin usb tablet tekee?" 
 
 C) 
+
+  käyttäjä HortTemppa GitHub https://github.com/HortTemppa/horttemppa.github.io/blob/main/h2.md idea Lynxiin 28.1.2024   
+
+D) 
+
+    Kapil Bhise https://medium.com/analytics-vidhya/linux-directories-explained-75c376173947 luettu 28.1.2024
+
+  
 
  
 
