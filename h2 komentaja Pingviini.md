@@ -117,12 +117,12 @@ Kaikki Kolme kerralla:
 
 ## D) FHS Kansiot selitettyinä: 
 
-  1 /              On juurikansio, pohja kaikelle Linuxissa ei ole c- tai d- asemia kuten Windowsissa vaan kaikki on "/" kansion alla.     
-  2 /home/         Kansio, joka sisältää kaikkien käyttäjien kotihakemistot.  
-  3 /home/maijav/  Käyttäjän maijav koytihakemisto ja ainoa paikka, johon käyttäjä maijav voi tallentaa dataa pysyvästi.  
-  4 /etc/          Kaikki järjestemän asetukset kirjattuna luettavassa muodossa.   
-  5  /media/        Hakemistokansio, johon ulkopuolinen tallennustila asennetaan automaattisesti käytettäväksi.  
-  6  /var/log/      Hakemisto, joka sisältää erilaisia loktietoja. Se tallentaa järjestelmän eri osien tapahtumatietoja ja virheitä.  
+  **/  **            On juurikansio, pohja kaikelle Linuxissa ei ole c- tai d- asemia kuten Windowsissa vaan kaikki on "/" kansion alla.     
+  **/home/ **        Kansio, joka sisältää kaikkien käyttäjien kotihakemistot.  
+  **/home/maijav/**  Käyttäjän maijav koytihakemisto ja ainoa paikka, johon käyttäjä maijav voi tallentaa dataa pysyvästi.  
+  **/etc/ **         Kaikki järjestemän asetukset kirjattuna luettavassa muodossa.   
+  **/media/**        Hakemistokansio, johon ulkopuolinen tallennustila asennetaan automaattisesti käytettäväksi.  
+  **/var/log/**      Hakemisto, joka sisältää erilaisia loktietoja. Se tallentaa järjestelmän eri osien tapahtumatietoja ja virheitä.  
   
                 
 
