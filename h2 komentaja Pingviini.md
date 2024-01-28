@@ -155,26 +155,9 @@ grep -v ottaa tehstistä haisunäädät pois, mutta ilmoittaa muut rivit normaal
 
 ![koiraputkessa](https://github.com/VaMaija/Linux2024/assets/142913118/fe443324-da03-4fc7-84ec-524282c408a4)
 
-## 
+## D) Onnistunut toiminto ja epäonnistunut toiminto. Analysointi lokitietojen perusteella. 
 
-
-
-                
-
-
-
-
-  
-
-
-  
-    
-
-
-
-
-
-
+En löytänyt lokitietoja vaikka etsin. 
 
 
 Lähteet: 
