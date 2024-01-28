@@ -121,7 +121,9 @@ Kaikki Kolme kerralla:
   /home/         Kansio, joka sisältää kaikkien käyttäjien kotihakemistot. 
   /home/maijav/  Käyttäjän maijav koytihakemisto ja ainoa paikka, johon käyttäjä maijav voi tallentaa dataa pysyvästi. 
   /etc/          Kaikki järjestemän asetukset kirjattuna luettavassa muodossa. 
-  /media/        Mediatiedostot
+  /media/        hakemistokansio, johon ulkopuolinen tallennustila asennetaan automaattisesti käytettäväksi. 
+  /var/log/      Hakemisto, joka sisältää erilaisia loktietoja. Se tallentaa järjestelmän eri osien tapahtumatietoja ja virheitä.
+                
 
 
 
