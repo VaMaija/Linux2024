@@ -150,8 +150,8 @@ B)
 
   bridge 440FX https://en.wikipedia.org/wiki/Intel_440FX luettu 27.1.2024  
   bridge 82371SB https://en.wikipedia.org/wiki/PIIX luettu 27.1.2024  
-  Linuxmint.com https://forums.linuxmint.com/viewtopic.php?t=308018 luettu 27.1.2024 
-  host controller https://www.sciencedirect.com/topics/computer-science/host-controller luettu 27.1.2024
+  Linuxmint.com https://forums.linuxmint.com/viewtopic.php?t=308018 luettu 27.1.2024  
+  host controller https://www.sciencedirect.com/topics/computer-science/host-controller luettu 27.1.2024  
   chatGPT https://chat.openai.com/c/b85eaa04-fb35-47b4-b203-1576a6dc96f1 kysytty 27.1.2024: "mitä virtuaaliboxin usb tablet tekee?" 
 
 C) 
@@ -160,7 +160,7 @@ C)
 
 D) 
 
-    Kapil Bhise https://medium.com/analytics-vidhya/linux-directories-explained-75c376173947 luettu 28.1.2024
+    Kapil Bhise https://medium.com/analytics-vidhya/linux-directories-explained-75c376173947 luettu 28.1.2024 
 
   
 
