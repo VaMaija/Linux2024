@@ -135,6 +135,11 @@ Kaikki Kolme kerralla:
   **/var/log/**      Hakemisto, joka sisältää erilaisia loktietoja. Se tallentaa järjestelmän eri osien tapahtumatietoja ja virheitä.  
   ![var_log](https://github.com/VaMaija/Linux2024/assets/142913118/34399ee2-d0b5-47db-877c-959392954d0e)
 
+## E) The friendly M
+grep -n "etsitämänSananSijaintitekstissä" tekstitiedosto.txt  
+
+![koira ja kani](https://github.com/VaMaija/Linux2024/assets/142913118/926b6b27-27b2-49e5-be4d-8ec3f4f913ed)
+
                 
 
 
