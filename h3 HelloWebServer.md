@@ -6,7 +6,7 @@
   
   Nimeen perustuva virtuaalipalvelin tarvitsee aina ip-osoitteeseen perustuvan verkkosivun alustakseen. Ennen kuin palvelin voi päättää mikä verkkosivustu palautetaan se tarkastaa ip-osoitteen ja portin. Sen jälkeen se vertaa pyynnön Ip-osoitetta ja porttia VirtualHost määrittelyjen kanssa ja valitsee parhaiten vastaavan.  
   
-  Käytettäessä nimeen perustuvaa virtuaalipalvelinta ensimmäinen askel on VirtualHost-blokin luonti. Siinä tulee olla ServerName,joka määrittää mitä virtuaalipalvelinta palvellaan ja DocumentRoot joka osoittaa paikan, mistä kyseiset asetukset haetaan. VirtualHost -blokissa määritellään ServerAlias -nimillä kaikki ne nimet, joilla haluaa verkkosiuson löytyvän.  
+  Käytettäessä nimeen perustuvaa virtuaalipalvelinta ensimmäinen askel on VirtualHost-blokin luonti. Siinä tulee olla ServerName,joka määrittää mitä virtuaalipalvelinta palvellaan ja DocumentRoot joka osoittaa paikan, mistä kyseiset asetukset haetaan. VirtualHost -blokissa määritellään ServerAlias -nimillä kaikki ne nimet, joilla haluaa verkkosivuson löytyvän.  
 
   
 
