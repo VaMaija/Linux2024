@@ -14,6 +14,19 @@
 
 ## B) Lokitiedot ja niiden analysointi 
 
+Koin tuskan hetkiä, kun en löytänyt lokitietoja millään. Kiitos kurssikaveri K Syrjän (puhelu 1.2.2024) löysin lokitietoja vihdoin niihin käsiksi: 
+
+![access denied](https://github.com/VaMaija/Linux2024/assets/142913118/ca07020b-5e34-4269-a089-16a095799755)
+
+en kuitenkaan löytänyt oman serkkosivun lokitietoja, jatkoin etsimistä. 
+Käynnistin ensin Ubunun uudelleen ja katsoin miten se näkyy lokitiedoissa: 
+
+![image](https://github.com/VaMaija/Linux2024/assets/142913118/7c725497-a398-43ea-b002-3478d8a3445d)
+
+
+
+
+
 
 
 
