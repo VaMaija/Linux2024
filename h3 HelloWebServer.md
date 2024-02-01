@@ -30,6 +30,8 @@ Käynnistin ensin Ubunun uudelleen ja katsoin miten se näkyy lokitiedoissa:
 
 
 
+
+
 Lähteet: 
   x) The Apache Software Foundation https://httpd.apache.org/docs/2.4/vhosts/name-based.html luettu 30.1.2024 
 
