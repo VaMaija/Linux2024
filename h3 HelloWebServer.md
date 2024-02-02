@@ -62,6 +62,10 @@ ja oikealla komennolla:
 Löysin käyttäjän tiedot: 
 ![netin käyttäjätiedot](https://github.com/VaMaija/Linux2024/assets/142913118/46c5e607-72ed-4cd4-a7dc-a2fe1daa6297)
 
+  Tässä on aikaleima alussa  
+  sen jälkeen näkyy virtuaalikoneen nimi ja dbus-daemon eli virtuaalikoneen dataliikenteen välittäjän numero.  
+
+
 
 
 
