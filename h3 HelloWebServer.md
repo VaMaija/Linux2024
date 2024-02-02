@@ -46,6 +46,11 @@ ja
   80: = Vhostin porttitieto  
   127.0.0.1 = localuser -sivulle annettu ip.osoite  
   [tapahtuman aikaleima]  
+  "GET /HTTP/1.1" = komento, ota yhteyttä aloitussivuun. 
+  200 239 = http-koodit "ok" ja "Redirect" 
+  Mozilla/5.0 = mozillan versio, jolla aloitussivu avataan. 
+  
+  
   
 
 
@@ -55,10 +60,15 @@ ja
 
 https://education.github.com/ 
 
-##  
+
 
 
 
 Lähteet: 
   x) The Apache Software Foundation https://httpd.apache.org/docs/2.4/vhosts/name-based.html luettu 30.1.2024 
+  b) http koodit /Iana https://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml  
+  ja https://www.kinexmedia.com/blog/http-status-codes/ luettu 2.2.2024  
+   mozilla käyttäjäagentti https://myip.ms/view/comp_browseragents/2912097/Mozilla_5_0_X11_Ubuntu_Linux_x86_64_rv_109_0_Gecko_20100101_Firefox_109_0.html  
+  https://www.google.com/search?q=what+is+user+agent&oq=what+is+user+agent&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIICAcQABgWGB4yCAgIEAAYFhgeMggICRAAGBYYHtIBCTY2NDlqMGoxNagCALACAA&sourceid=chrome&ie=UTF-8  
+  
 
