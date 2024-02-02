@@ -37,11 +37,6 @@ Lopulta löysin pääkäyttäjän lokitiedot
 
 ![vhosts access log](https://github.com/VaMaija/Linux2024/assets/142913118/91506c2d-8c03-4a9a-b33f-4907f734610c)
 
-ja 
-![oikea komento](https://github.com/VaMaija/Linux2024/assets/142913118/0bd7dbea-053f-46b4-93e7-f9cc9f6e0063)
-
-![netin käyttäjätiedot](https://github.com/VaMaija/Linux2024/assets/142913118/46c5e607-72ed-4cd4-a7dc-a2fe1daa6297)
-
   Ensimmäinen rivi:   
   maija.example.com = vhostin nimi  
   80: = Vhostin porttitieto  
@@ -60,6 +55,13 @@ ja
     ![favicon ico](https://github.com/VaMaija/Linux2024/assets/142913118/2decc13d-598f-46ba-a5c4-a3169cb20327)  
     404 487 = http-koodit "Not Found" ja "Request Terminated#
     "http://localhost/" = osoite mihin yhdistetään ja sen jälkeen tietona uudelleen Käyttäjäagentin tiedot
+
+ja 
+![oikea komento](https://github.com/VaMaija/Linux2024/assets/142913118/0bd7dbea-053f-46b4-93e7-f9cc9f6e0063)
+
+![netin käyttäjätiedot](https://github.com/VaMaija/Linux2024/assets/142913118/46c5e607-72ed-4cd4-a7dc-a2fe1daa6297)
+
+
 
     
 
