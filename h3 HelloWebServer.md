@@ -63,7 +63,9 @@ Löysin käyttäjän tiedot:
 ![netin käyttäjätiedot](https://github.com/VaMaija/Linux2024/assets/142913118/46c5e607-72ed-4cd4-a7dc-a2fe1daa6297)
 
   Tässä on aikaleima alussa  
-  sen jälkeen näkyy virtuaalikoneen nimi ja dbus-daemon eli virtuaalikoneen dataliikenteen välittäjän numero.  
+  sen jälkeen näkyy virtuaalikoneen nimi ja dbus-daemon eli virtuaalikoneen dataliikenteen välittäjän numero. Linux Virtual Delivery Agent 2201  
+  [session uid=1000 = avautuvan yhteyden tunnus 
+  pid:2201] =  
 
 
 
@@ -93,6 +95,10 @@ Lähteet:
   ja https://www.kinexmedia.com/blog/http-status-codes/ luettu 2.2.2024  
    mozilla käyttäjäagentti https://myip.ms/view/comp_browseragents/2912097/Mozilla_5_0_X11_Ubuntu_Linux_x86_64_rv_109_0_Gecko_20100101_Firefox_109_0.html  
    Favicon.ico https://en.wikipedia.org/wiki/Favicon luettu 2.2.2024
+
+   dbus-daemon [2201] https://docs.citrix.com/en-us/linux-virtual-delivery-agent/2201/linux-virtual-delivery-agent-2201.pdf oogletettu 2.2.202024
+   pid  https://www.baeldung.com/linux/pid-tid-ppid googletettu 2.2.2024  
+   
    
  
   
