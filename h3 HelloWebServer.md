@@ -22,11 +22,21 @@ Kiitos kurssikaveri K Syrjän (puhelu 1.2.2024) pääsin hajulle siitä missä n
 
 Seuraaavana päivänä palasin yrityksen ääreen: 
 
-Lopulta ajattelin tarpeeksi yksinkertaisesti ja yritin journalctl -f komennolla eteenpäin. Sekä sudolla että ilman. Eli katsoin vihdoin Teron ohjeita (tää pitää tehdä kuin Ikean huonekalut, ensin ilman ohjeita ja sitten oluen voimalla ja ohjeiden kanssa. )
+Lopulta ajattelin tarpeeksi yksinkertaisesti ja yritin journalctl f ja sudo tail -f komennoilla eteenpäin. Eli katsoin vihdoin Teron ohjeita (tää pitää tehdä kuin Ikean huonekalut, ensin ilman ohjeita ja sitten oluen voimalla ja ohjeiden kanssa. )
 
-![sudo tail ei toimi](https://github.com/VaMaija/Linux2024/assets/142913118/c8b926d2-c459-4677-90af-6ddc3d2fd9a3)
+![sudo tail ei toimi](https://github.com/VaMaija/Linux2024/assets/142913118/c8b926d2-c459-4677-90af-6ddc3d2fd9a3)  
+  Tämä komento ei toiminut. 
 
 ![accesslog1](https://github.com/VaMaija/Linux2024/assets/142913118/607f618b-84eb-4c80-b2f1-07ed31614635)
+  Komento toimi, mutta antoi vanhat lokitiedot.  
+
+![error loki](https://github.com/VaMaija/Linux2024/assets/142913118/2f7c2769-d68b-4149-a1e2-b7eb6557446f)
+
+
+
+
+  
+
 
 
 
