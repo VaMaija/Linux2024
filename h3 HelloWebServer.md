@@ -76,20 +76,7 @@ Löysin käyttäjän tiedot:
 
   ![käyttäjän tiedot](https://github.com/VaMaija/Linux2024/assets/142913118/8fc34563-148b-400e-8433-5364931dd61a)
 
-
-  
-  
-
-
-
-
-
-
-    
-
-  
-  
-  
+ 
 
 
 
@@ -110,8 +97,8 @@ Lähteet:
    Favicon.ico https://en.wikipedia.org/wiki/Favicon luettu 2.2.2024
 
    dbus-daemon [2201] https://docs.citrix.com/en-us/linux-virtual-delivery-agent/2201/linux-virtual-delivery-agent-2201.pdf oogletettu 2.2.202024
-   pid  https://www.baeldung.com/linux/pid-tid-ppid googletettu 2.2.2024  
-   
+   pid  https://www.baeldung.com/linux/pid-tid-ppid googletettu 2.2.2024  ja  
+     https://stackoverflow.com/questions/23243154/finding-ip-address-using-linux-pid  
    
  
   
