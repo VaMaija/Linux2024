@@ -25,9 +25,17 @@ Käynnistin ensin Ubunun uudelleen ja katsoin miten se näkyy lokitiedoissa:
 
 ![image](https://github.com/VaMaija/Linux2024/assets/142913118/7c725497-a398-43ea-b002-3478d8a3445d)
 
-Lopulta ajattelin tarpeeksi yksinkertaisesti ja yritin journalctl -komennolla eteenpäin: 
+Seuraaavana päivänä palasin yrityksen ääreen: 
 
-klo 18:44 pyysin weppipalvelimeltani pääsyä www.iltasanomat.org -osoitteeseen. 
+Lopulta ajattelin tarpeeksi yksinkertaisesti ja yritin journalctl -f komennolla eteenpäin
+
+
+
+
+
+klo 17.21 pyysin weppipalvelimeltani pääsyä www.iltasanomat.org -osoitteeseen. 
+
+
 
 
 
