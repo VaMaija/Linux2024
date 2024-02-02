@@ -20,7 +20,7 @@ Koin tuskan hetkiä, kun en löytänyt lokitietoja millään.
 
 Kiitos kurssikaveri K Syrjän (puhelu 1.2.2024) pääsin hajulle siitä missä niitä lymyää, mutta en edelleenkään löytänyt verkkosivun lokituksia. 
 
-Seuraaavana päivänä palasin yrityksen ääreen: 
+Seuraaavana päivänä (2.2.2024) palasin yrityksen ääreen: 
 
 Lopulta ajattelin tarpeeksi yksinkertaisesti ja yritin journalctl f ja sudo tail -f komennoilla eteenpäin. Eli katsoin vihdoin Teron ohjeita (tää pitää tehdä kuin Ikean huonekalut, ensin ilman ohjeita ja sitten oluen voimalla ja ohjeiden kanssa. )
 
