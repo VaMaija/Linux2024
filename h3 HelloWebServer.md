@@ -56,10 +56,13 @@ Lopulta löysin pääkäyttäjän lokitiedot
     404 487 = http-koodit "Not Found" ja "Request Terminated#
     "http://localhost/" = osoite mihin yhdistetään ja sen jälkeen tietona uudelleen Käyttäjäagentin tiedot
 
-ja 
-![oikea komento](https://github.com/VaMaija/Linux2024/assets/142913118/0bd7dbea-053f-46b4-93e7-f9cc9f6e0063)
+ja oikealla komennolla: 
+![oikea komento](https://github.com/VaMaija/Linux2024/assets/142913118/0bd7dbea-053f-46b4-93e7-f9cc9f6e0063)  
 
+Löysin käyttäjän tiedot: 
 ![netin käyttäjätiedot](https://github.com/VaMaija/Linux2024/assets/142913118/46c5e607-72ed-4cd4-a7dc-a2fe1daa6297)
+
+
 
 
 
