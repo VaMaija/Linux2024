@@ -31,9 +31,16 @@ Lopulta ajattelin tarpeeksi yksinkertaisesti ja yritin journalctl f ja sudo tail
   Komento toimi, mutta antoi vanhat lokitiedot.  
 
 ![error loki](https://github.com/VaMaija/Linux2024/assets/142913118/2f7c2769-d68b-4149-a1e2-b7eb6557446f)
-antoi virhetietoja oikeasta päivästä. Nettikäyttäjän tietdoja ei kuitenkaan löytynyt. 
+antoi virhetietoja oikeasta päivästä. Nettikäyttäjän tietoja ei kuitenkaan löytynyt. 
 
 Lopulta löysin pääkäyttäjän lokitiedot 
+
+![vhosts access log](https://github.com/VaMaija/Linux2024/assets/142913118/91506c2d-8c03-4a9a-b33f-4907f734610c)
+
+ja 
+![oikea komento](https://github.com/VaMaija/Linux2024/assets/142913118/0bd7dbea-053f-46b4-93e7-f9cc9f6e0063)
+
+![netin käyttäjätiedot](https://github.com/VaMaija/Linux2024/assets/142913118/46c5e607-72ed-4cd4-a7dc-a2fe1daa6297)
 
 
 
