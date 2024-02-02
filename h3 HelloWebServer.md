@@ -32,27 +32,11 @@ Lopulta ajattelin tarpeeksi yksinkertaisesti ja yritin journalctl f ja sudo tail
 
 ![error loki](https://github.com/VaMaija/Linux2024/assets/142913118/2f7c2769-d68b-4149-a1e2-b7eb6557446f)
 
+## m) GitHUb Education paketti hankittu
 
+https://education.github.com/ 
 
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## 
 
 
 
