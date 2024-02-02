@@ -72,7 +72,7 @@ Löysin käyttäjän tiedot:
   comm= xfsettingsd = demonin asetukset   
   sm-lient-id numeroyhdistelmällä löytyy yhteyden käyttäjätieto.   
 
-  tässä tiedon takaa löytyi komennolla $ who user 2090921 seuraava vastaus: 
+  tässä tiedon takaa löytyi seuraava vastaus: 
 
   ![käyttäjän tiedot](https://github.com/VaMaija/Linux2024/assets/142913118/8fc34563-148b-400e-8433-5364931dd61a)
 
