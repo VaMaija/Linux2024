@@ -24,13 +24,9 @@ Seuraaavana päivänä palasin yrityksen ääreen:
 
 Lopulta ajattelin tarpeeksi yksinkertaisesti ja yritin journalctl -f komennolla eteenpäin. Sekä sudolla että ilman. Eli katsoin vihdoin Teron ohjeita (tää pitää tehdä kuin Ikean huonekalut, ensin ilman ohjeita ja sitten oluen voimalla ja ohjeiden kanssa. )
 
+![sudo tail ei toimi](https://github.com/VaMaija/Linux2024/assets/142913118/c8b926d2-c459-4677-90af-6ddc3d2fd9a3)
 
-
-
-
-
-
-klo 17.21 pyysin weppipalvelimeltani pääsyä www.iltasanomat.org -osoitteeseen. 
+![accesslog1](https://github.com/VaMaija/Linux2024/assets/142913118/607f618b-84eb-4c80-b2f1-07ed31614635)
 
 
 
