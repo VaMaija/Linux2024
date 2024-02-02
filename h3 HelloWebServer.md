@@ -64,8 +64,21 @@ Löysin käyttäjän tiedot:
 
   Tässä on aikaleima alussa  
   sen jälkeen näkyy virtuaalikoneen nimi ja dbus-daemon eli virtuaalikoneen dataliikenteen välittäjän numero. Linux Virtual Delivery Agent 2201  
-  [session uid=1000 = avautuvan yhteyden tunnus 
-  pid:2201] =  
+  [session uid=1000] = avautuvan yhteyden tunnus 
+  [pid:2201] = prosessin tunniste (sama kuin dbus-daemonin tunniste?)
+  Activating service name = org.xfce.Xconf = avautuva palvelu on kyseisen tiedoston sisällön mukainen
+  requested by 1.43 = pyydetty sekunteja sitten?
+  (uid=1000, pid=2525, 
+  comm= xfsettingsd = demonin asetukset 
+  sm-lient-id numeroyhdistelmällä löytyy yhteyden käyttäjätieto. 
+
+  tässä tiedon takaa löytyi komennolla $ who user 2090921 seuraava vastaus: 
+
+  ![käyttäjän tiedot](https://github.com/VaMaija/Linux2024/assets/142913118/8fc34563-148b-400e-8433-5364931dd61a)
+
+
+  
+  
 
 
 
