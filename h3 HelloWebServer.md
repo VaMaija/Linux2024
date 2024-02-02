@@ -10,7 +10,7 @@
 
 ## A) veppipalvelin localhost-osoitteessa  
 
-![paikallinen isäntä](https://github.com/VaMaija/Linux2024/assets/142913118/b51535ec-bc70-4ce9-9d14-690fda16aef6)
+![paikallinen isäntä](https://github.com/VaMaija/Linux2024/assets/142913118/84608f65-97cf-42a7-9f96-382c00394641)
 
 ## B) Lokitiedot ja niiden analysointi 
 
@@ -18,16 +18,13 @@ Koin tuskan hetkiä, kun en löytänyt lokitietoja millään.
 
 ![access denied](https://github.com/VaMaija/Linux2024/assets/142913118/ca07020b-5e34-4269-a089-16a095799755)
 
-Kiitos kurssikavri K Syrjän (puhelu 1.2.2024)
-
-En kuitenkaan löytänyt oman verkkosivun lokitietoja, jatkoin etsimistä. 
-Käynnistin ensin Ubunun uudelleen ja katsoin miten se näkyy lokitiedoissa: 
-
-![image](https://github.com/VaMaija/Linux2024/assets/142913118/7c725497-a398-43ea-b002-3478d8a3445d)
+Kiitos kurssikaveri K Syrjän (puhelu 1.2.2024) pääsin hajulle siitä missä niitä lymyää, mutta en edelleenkään löytänyt verkkosivun lokituksia. 
 
 Seuraaavana päivänä palasin yrityksen ääreen: 
 
-Lopulta ajattelin tarpeeksi yksinkertaisesti ja yritin journalctl -f komennolla eteenpäin
+Lopulta ajattelin tarpeeksi yksinkertaisesti ja yritin journalctl -f komennolla eteenpäin. Sekä sudolla että ilman. Eli katsoin vihdoin Teron ohjeita (tää pitää tehdä kuin Ikean huonekalut, ensin ilman ohjeita ja sitten oluen voimalla ja ohjeiden kanssa. )
+
+
 
 
 
