@@ -42,6 +42,12 @@ ja
 
 ![netin käyttäjätiedot](https://github.com/VaMaija/Linux2024/assets/142913118/46c5e607-72ed-4cd4-a7dc-a2fe1daa6297)
 
+  maija.example.com = vhostin nimi
+  80: = Vhostin porttitieto
+  127.0.0.1 = localuser -sivulle annettu ip.osoite
+  [tapahtuman aikaleima]
+  
+
 
 
 
