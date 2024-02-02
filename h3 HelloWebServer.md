@@ -42,13 +42,23 @@ ja
 
 ![netin käyttäjätiedot](https://github.com/VaMaija/Linux2024/assets/142913118/46c5e607-72ed-4cd4-a7dc-a2fe1daa6297)
 
+  Ensimmäinen rivi:   
   maija.example.com = vhostin nimi  
   80: = Vhostin porttitieto  
   127.0.0.1 = localuser -sivulle annettu ip.osoite  
   [tapahtuman aikaleima]  
   "GET /HTTP/1.1" = komento, ota yhteyttä aloitussivuun. 
   200 239 = http-koodit "ok" ja "Redirect" 
-  Mozilla/5.0 = mozillan versio, jolla aloitussivu avataan. 
+  Mozilla/5.0 (X11; Linux x86_64; rv 109.0) Gecko/20100101 Firefox/115.0) = Käyttäjäagentin tiedot
+
+  Toinen rivi;  
+    maija.example.com = vhostin nimi  
+    80: = Vhostin porttitieto  
+    127.0.0.1 = localuser -sivulle annettu ip.osoite  
+    [tapahtuman aikaleima]  
+    "GET /favicon.ico HTTP/1.1" Etsi kuva hakukenttään  
+    ![favicon ico](https://github.com/VaMaija/Linux2024/assets/142913118/2decc13d-598f-46ba-a5c4-a3169cb20327)
+
   
   
   
@@ -69,6 +79,8 @@ Lähteet:
   b) http koodit /Iana https://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml  
   ja https://www.kinexmedia.com/blog/http-status-codes/ luettu 2.2.2024  
    mozilla käyttäjäagentti https://myip.ms/view/comp_browseragents/2912097/Mozilla_5_0_X11_Ubuntu_Linux_x86_64_rv_109_0_Gecko_20100101_Firefox_109_0.html  
-  https://www.google.com/search?q=what+is+user+agent&oq=what+is+user+agent&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIICAcQABgWGB4yCAgIEAAYFhgeMggICRAAGBYYHtIBCTY2NDlqMGoxNagCALACAA&sourceid=chrome&ie=UTF-8  
+   Favicon.ico https://en.wikipedia.org/wiki/Favicon luettu 2.2.2024
+   
+ 
   
 
