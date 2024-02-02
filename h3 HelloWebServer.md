@@ -57,7 +57,11 @@ ja
     127.0.0.1 = localuser -sivulle annettu ip.osoite  
     [tapahtuman aikaleima]  
     "GET /favicon.ico HTTP/1.1" Etsi kuva hakukenttään  
-    ![favicon ico](https://github.com/VaMaija/Linux2024/assets/142913118/2decc13d-598f-46ba-a5c4-a3169cb20327)
+    ![favicon ico](https://github.com/VaMaija/Linux2024/assets/142913118/2decc13d-598f-46ba-a5c4-a3169cb20327)  
+    404 487 = http-koodit "Not Found" ja "Request Terminated#
+    "http://localhost/" = osoite mihin yhdistetään ja sen jälkeen tietona uudelleen Käyttäjäagentin tiedot
+
+    
 
   
   
