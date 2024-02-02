@@ -36,7 +36,7 @@ Lopulta ajattelin tarpeeksi yksinkertaisesti ja yritin journalctl f ja sudo tail
 
 https://education.github.com/ 
 
-## 
+##  
 
 
 
