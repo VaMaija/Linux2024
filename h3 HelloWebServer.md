@@ -31,6 +31,12 @@ Lopulta ajattelin tarpeeksi yksinkertaisesti ja yritin journalctl f ja sudo tail
   Komento toimi, mutta antoi vanhat lokitiedot.  
 
 ![error loki](https://github.com/VaMaija/Linux2024/assets/142913118/2f7c2769-d68b-4149-a1e2-b7eb6557446f)
+antoi virhetietoja oikeasta päivästä. Nettikäyttäjän tietdoja ei kuitenkaan löytynyt. 
+
+Lopulta löysin pääkäyttäjän lokitiedot 
+
+
+
 
 ## m) GitHUb Education paketti hankittu
 
