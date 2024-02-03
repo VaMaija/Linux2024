@@ -70,9 +70,9 @@ Löysin käyttäjän tiedot:
   requested by 1.43 = pyydetty sekunteja sitten?  
   (uid=1000, pid=2525,   
   comm= xfsettingsd = demonin asetukset   
-  sm-lient-id numeroyhdistelmällä löytyy yhteyden käyttäjätieto.   
+  sm-client-id numeroyhdistelmällä löytyy yhteyden käyttäjätieto.   
 
-  tässä tiedon takaa löytyi seuraava vastaus: 
+  Tässä tiedon takaa löytyi seuraava vastaus: 
 
   ![käyttäjän tiedot](https://github.com/VaMaija/Linux2024/assets/142913118/8fc34563-148b-400e-8433-5364931dd61a)
 
