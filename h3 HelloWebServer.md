@@ -76,6 +76,14 @@ Löysin käyttäjän tiedot:
 
   ![käyttäjän tiedot](https://github.com/VaMaija/Linux2024/assets/142913118/8fc34563-148b-400e-8433-5364931dd61a)
 
+## c) Etusivu uusiksi
+
+  3.2.2024 klo 20.28 availin virtuaalikoneen ja pakotin itseni tehtävän pariin. Tuntui kun aivoni olisivat tyhjentyneet kaikesta tarvittavasta tiedosta. 
+
+  
+  
+  
+
  
 
 
