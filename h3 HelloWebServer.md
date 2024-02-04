@@ -100,15 +100,17 @@ Löysin käyttäjän tiedot:
 		$ cd /etc/apache2/sites-available/  
 		/etc/apache2/sites-available$ sudo cp 000-default.conf ./hattu.example.com.conf  
 		/etc/apache2/sites-available$ sudo nano hattu.example.com.comf  
-    
-	Kirjoitin väliin ServerName ja ServerAliaksen ja loin yhteyden var/www/hattu.example.com, josta tiedot on luettavissa  
-	Seuraavaksi pitäisi ottaa hattu.example.com.conf käyttöön.   
-		/etc/apache2/sites-available$ sudo a2ensite hattu.example.com.comf  
-	Se ei onnistunut, sillä olen **nimennyt tiedoston väärin**: hattu.example.com.comf vaikka pitäisi olla hattu.example.com.conf   
-	Korjauspuuhat nimeämisessä: sudo mv hattu.example.com.comf hattu.example.com.conf  
-		/etc/apache2/sites-available$ sudo a2ensite hattu.example.com.conf  
-		/etc/apache2/sites-available$ sudo systemctl reload apache2   
-	Shift+reload ja localhost   
+  Kirjoitin väliin ServerName ja ServerAliaksen ja loin yhteyden var/www/hattu.example.com, josta tiedot on luettavissa  
+  Seuraavaksi pitäisi ottaa hattu.example.com.conf käyttöön.   
+    /etc/apache2/sites-available$ sudo a2ensite hattu.example.com.comf  
+
+  Se ei onnistunut, sillä olen **nimennyt tiedoston väärin**: hattu.example.com.comf vaikka pitäisi olla hattu.example.com.conf   
+  Korjauspuuhat nimeämisessä: sudo mv hattu.example.com.comf hattu.example.com.conf  
+  
+  /etc/apache2/sites-available$ sudo a2ensite hattu.example.com.conf  
+  /etc/apache2/sites-available$ sudo systemctl reload apache2   
+  **Shift+reload ja localhost**   
+  
  ![eka kokeilu](https://github.com/VaMaija/Linux2024/assets/142913118/203cea8f-ea22-4f45-be60-a2194fc2a1e9)
 
 	
