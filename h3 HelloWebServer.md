@@ -38,23 +38,23 @@ Lopulta löysin pääkäyttäjän lokitiedot
 ![vhosts access log](https://github.com/VaMaija/Linux2024/assets/142913118/91506c2d-8c03-4a9a-b33f-4907f734610c)
 
   Ensimmäinen rivi:   
-  maija.example.com = vhostin nimi  
-  80: = Vhostin porttitieto  
-  127.0.0.1 = localuser -sivulle annettu ip.osoite  
-  [tapahtuman aikaleima]  
-  "GET /HTTP/1.1" = komento, ota yhteyttä aloitussivuun. 
-  200 239 = http-koodit "ok" ja "Redirect" 
-  Mozilla/5.0 (X11; Linux x86_64; rv 109.0) Gecko/20100101 Firefox/115.0) = Käyttäjäagentin tiedot
+  **maija.example.com** = vhostin nimi  
+  **80:** = Vhostin porttitieto  
+ ** 127.0.0.1** = localuser -sivulle annettu ip.osoite  
+ ** [tapahtuman aikaleima]**  
+ ** "GET /HTTP/1.1"** = komento, ota yhteyttä aloitussivuun. 
+ ** 200 239** = http-koodit "ok" ja "Redirect" 
+ ** Mozilla/5.0 (X11; Linux x86_64; rv 109.0) Gecko/20100101 Firefox/115.0)** = Käyttäjäagentin tiedot
 
   Toinen rivi;  
-    maija.example.com = vhostin nimi  
-    80: = Vhostin porttitieto  
-    127.0.0.1 = localuser -sivulle annettu ip.osoite  
-    [tapahtuman aikaleima]  
-    "GET /favicon.ico HTTP/1.1" Etsi kuva hakukenttään  
+    **maija.example.com** = vhostin nimi  
+   ** 80:** = Vhostin porttitieto  
+    **127.0.0.1** = localuser -sivulle annettu ip.osoite  
+    **[tapahtuman aikaleima] ** 
+   ** "GET /favicon.ico HTTP/1.1"** Etsi kuva hakukenttään  
     ![favicon ico](https://github.com/VaMaija/Linux2024/assets/142913118/2decc13d-598f-46ba-a5c4-a3169cb20327)  
-    404 487 = http-koodit "Not Found" ja "Request Terminated#  
-    "http://localhost/" = osoite mihin yhdistetään ja sen jälkeen tietona uudelleen Käyttäjäagentin tiedot
+   ** 404 487** = http-koodit "Not Found" ja "Request Terminated#  
+    **"http://localhost/"** = osoite mihin yhdistetään ja sen jälkeen tietona uudelleen Käyttäjäagentin tiedot
 
 ja oikealla komennolla: 
 ![oikea komento](https://github.com/VaMaija/Linux2024/assets/142913118/0bd7dbea-053f-46b4-93e7-f9cc9f6e0063)  
