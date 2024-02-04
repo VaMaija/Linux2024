@@ -35,7 +35,7 @@ antoi virhetietoja oikeasta päivästä. Nettikäyttäjän tietoja ei kuitenkaan
 
 Lopulta löysin pääkäyttäjän lokitiedot 
 
-![vhosts access log](https://github.com/VaMaija/Linux2024/assets/142913118/91506c2d-8c03-4a9a-b33f-4907f734610c)
+![vhosts access log](https://github.com/VaMaija/Linux2024/assets/142913118/91506c2d-8c03-4a9a-b33f-4907f734610c) 
 
   Ensimmäinen rivi:   
   **maija.example.com** = vhostin nimi  
