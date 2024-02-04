@@ -126,6 +126,16 @@ Löysin käyttäjän tiedot:
  
 ![modattu localhost -näkymä](https://github.com/VaMaija/Linux2024/assets/142913118/ea20d78e-e349-4cff-81f6-4bb4175e624e)
 
+21.10 Annetaan käyttäjälle käyttöoikeus sivuun ilman sudoa: 
+  $ sudo chmod u=rwx /var/www/hattu.example.com  
+  user saa read write ja execute 
+![rwx](https://github.com/VaMaija/Linux2024/assets/142913118/9d3d69a9-4db3-4e8f-9a88-855d80adcb37)
+
+
+
+
+  
+
  
 
   
