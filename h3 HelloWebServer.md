@@ -81,7 +81,8 @@ Löysin käyttäjän tiedot:
   4.2.2024 18.20 availin virtuaalikoneen ja pakotin itseni tehtävän pariin. Tuntui kun aivoni olisivat tyhjentyneet kaikesta tarvittavasta tiedosta. 
 
   Käytin apuna [Youtuben videota](https://www.youtube.com/watch?v=rvwYzs6IMog&t=673s)
-Luodaan tiedosto sivustolle ja localhostin tervehdys: 
+  
+  Luodaan tiedosto sivustolle ja localhostin tervehdys:  
   18:20 $ sudo apt-get update | upgrade  
        $ sudo systemctl reboot apache2 (copypaste ei toiminut edelleenkään.)  
   18:33 sudo systemctl status apache2  
@@ -94,7 +95,7 @@ Luodaan tiedosto sivustolle ja localhostin tervehdys:
  ![great success](https://github.com/VaMaija/Linux2024/assets/142913118/71225e70-fd9e-4262-99ba-bbfbe5a854ae)
 
 	
-Luodaan virtuaali-isännöitsijä:   
+  Luodaan virtuaali-isännöitsijä:   
   19:05  
 		$ cd /etc/apache2/sites-available/  
 		/etc/apache2/sites-available$ sudo cp 000-default.conf ./hattu.example.com.conf  
