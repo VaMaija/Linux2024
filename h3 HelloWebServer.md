@@ -78,7 +78,38 @@ Löysin käyttäjän tiedot:
 
 ## c) Etusivu uusiksi
 
-  3.2.2024 klo 20.28 availin virtuaalikoneen ja pakotin itseni tehtävän pariin. Tuntui kun aivoni olisivat tyhjentyneet kaikesta tarvittavasta tiedosta. 
+  4.2.2024 18.20 availin virtuaalikoneen ja pakotin itseni tehtävän pariin. Tuntui kun aivoni olisivat tyhjentyneet kaikesta tarvittavasta tiedosta. 
+
+  Käytin apuna (Youtuben videota)[https://www.youtube.com/watch?v=rvwYzs6IMog&t=673s]
+
+   18:20 $ sudo apt-get update | upgrade
+       $ sudo systemctl reboot apache2 (copypaste ei toiminut edelleenkään.)
+ 18:33 sudo systemctl status apache2
+    luodaan polku verkkosivuston tiedostoille: 
+       $ sudo mkdir -p /var/www/hattu.example.com 
+    tarkastin muodostuiko polku oikein: 
+       $ ls /var/www/hattu.example.com, mitään sisältöä ei löytynyt
+ 18:50 $ sudo nano /var/www/hattu.example.com/index.html
+	Kirjoitin lyhyen tervehdyksen. 
+	
+	Luodaan virtuaali-isännöitsijä: 
+ 19:05
+		$ cd /etc/apache2/sites-available/
+		/etc/apache2/sites-available$ sudo cp 000-default.conf ./hattu.example.com.conf
+		/etc/apache2/sites-available$ sudo nano hattu.example.com.comf
+	kirjoitin väliin ServerName ja ServerAliaksen ja loin yhteyden var/www/hattu.example.com, josta tiedot on luettavissa
+	Seuraavaksi pitäisi ottaa hattu.example.com.conf käyttöön. 
+		/etc/apache2/sites-available$ sudo a2ensite hattu.example.com.comf
+	Se ei onnistunut, sillä olen nimennyt tiedoston väärin: hattu.example.com.comf vaikka pitäisi olla hattu.example.com.conf 
+	Korjauspuuhat nimeämisessä: sudo mv hattu.example.com.comf hattu.example.com.conf
+		/etc/apache2/sites-available$ sudo a2ensite hattu.example.com.conf
+		/etc/apache2/sites-available$ sudo systemctl reload apache2 
+	Shift+reload ja localhost 
+	
+	korjataan tekstiä aloitussivulla 
+	/var/www/hattu.example.com$ sudo nano index.html
+20:10	
+	Näkymä localhostissa: 
 
   
   
