@@ -119,6 +119,8 @@ Löysin käyttäjän tiedot:
 	
   **korjataan tekstiä aloitussivulla**     
 	/var/www/hattu.example.com$ sudo nano index.html  
+ ![koodinpätkä](https://github.com/VaMaija/Linux2024/assets/142913118/4465f00a-3f44-4ff6-8a0b-29f293923483)
+
  20:10  	
 	Näkymä localhostissa:  
  
