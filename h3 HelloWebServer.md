@@ -101,6 +101,9 @@ Löysin käyttäjän tiedot:
 		/etc/apache2/sites-available$ sudo cp 000-default.conf ./hattu.example.com.conf  
 		/etc/apache2/sites-available$ sudo nano hattu.example.com.comf  
   Kirjoitin väliin ServerName ja ServerAliaksen ja loin yhteyden var/www/hattu.example.com, josta tiedot on luettavissa  
+![comf muutokset](https://github.com/VaMaija/Linux2024/assets/142913118/22b85c66-4996-4c54-ba94-a12d799f5a83)
+
+  
   Seuraavaksi pitäisi ottaa hattu.example.com.conf käyttöön.   
     /etc/apache2/sites-available$ sudo a2ensite hattu.example.com.comf  
 
