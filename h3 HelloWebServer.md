@@ -138,16 +138,25 @@ https://education.github.com/
 
 
 
-Lähteet: 
-  x) The Apache Software Foundation https://httpd.apache.org/docs/2.4/vhosts/name-based.html luettu 30.1.2024 
-  b) http koodit /Iana https://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml  
-  ja https://www.kinexmedia.com/blog/http-status-codes/ luettu 2.2.2024  
-   mozilla käyttäjäagentti https://myip.ms/view/comp_browseragents/2912097/Mozilla_5_0_X11_Ubuntu_Linux_x86_64_rv_109_0_Gecko_20100101_Firefox_109_0.html  
-   Favicon.ico https://en.wikipedia.org/wiki/Favicon luettu 2.2.2024
+	Lähteet: 
+  x)
+  	The Apache Software Foundation https://httpd.apache.org/docs/2.4/vhosts/name-based.html luettu 30.1.2024 
+  
+  b)
+  	http koodit /Iana https://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml  
+  	ja https://www.kinexmedia.com/blog/http-status-codes/ luettu 2.2.2024  
+   	mozilla käyttäjäagentti https://myip.ms/view/comp_browseragents/2912097/Mozilla_5_0_X11_Ubuntu_Linux_x86_64_rv_109_0_Gecko_20100101_Firefox_109_0.html  
+   	Favicon.ico https://en.wikipedia.org/wiki/Favicon luettu 2.2.2024
 
-   dbus-daemon [2201] https://docs.citrix.com/en-us/linux-virtual-delivery-agent/2201/linux-virtual-delivery-agent-2201.pdf oogletettu 2.2.202024
-   pid  https://www.baeldung.com/linux/pid-tid-ppid googletettu 2.2.2024  ja  
-     https://stackoverflow.com/questions/23243154/finding-ip-address-using-linux-pid  
+   	dbus-daemon [2201] https://docs.citrix.com/en-us/linux-virtual-delivery-agent/2201/linux-virtual-delivery-agent-2201.pdf googletettu 2.2.202024
+   	pid  https://www.baeldung.com/linux/pid-tid-ppid googletettu 2.2.2024  ja  
+     	https://stackoverflow.com/questions/23243154/finding-ip-address-using-linux-pid  
+
+  c)    
+  	KeepItTechie -Youtube kanava https://www.youtube.com/watch?v=rvwYzs6IMog&t=673s katsottu 4.2.2024
+   
+
+
    
  
   
