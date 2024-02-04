@@ -126,10 +126,12 @@ Löysin käyttäjän tiedot:
  
 ![modattu localhost -näkymä](https://github.com/VaMaija/Linux2024/assets/142913118/ea20d78e-e349-4cff-81f6-4bb4175e624e)
 
-21.10 Annetaan käyttäjälle käyttöoikeus sivuun ilman sudoa: 
+21.10 Annetaan käyttäjälle käyttöoikeus sivuun ilman sudoa:  
   $ sudo chmod u=rwx /var/www/hattu.example.com  
   user : read write execute 
 ![rwx](https://github.com/VaMaija/Linux2024/assets/142913118/9d3d69a9-4db3-4e8f-9a88-855d80adcb37)
+
+
 
 
 
@@ -172,7 +174,9 @@ https://education.github.com/
   https://stackoverflow.com/questions/23243154/finding-ip-address-using-linux-pid  
 
   c)      
-  KeepItTechie -Youtube kanava https://www.youtube.com/watch?v=rvwYzs6IMog&t=673s katsottu 4.2.2024
+  KeepItTechie -Youtube kanava https://www.youtube.com/watch?v=rvwYzs6IMog&t=673s katsottu 4.2.2024  
+  petrit.net oikeuksia käyttäjälle https://petrit.net/Linux-kurssi/jarjestelma/tiedosto-oikeudet/ 4.2.2024  
+  
    
 
 
