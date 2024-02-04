@@ -81,7 +81,7 @@ Löysin käyttäjän tiedot:
   4.2.2024 18.20 availin virtuaalikoneen ja pakotin itseni tehtävän pariin. Tuntui kun aivoni olisivat tyhjentyneet kaikesta tarvittavasta tiedosta. 
 
   Käytin apuna [Youtuben videota](https://www.youtube.com/watch?v=rvwYzs6IMog&t=673s)
-
+Luodaan tiedosto sivustolle ja localhostin tervehdys: 
   18:20 $ sudo apt-get update | upgrade  
        $ sudo systemctl reboot apache2 (copypaste ei toiminut edelleenkään.)  
   18:33 sudo systemctl status apache2  
@@ -91,25 +91,34 @@ Löysin käyttäjän tiedot:
        $ ls /var/www/hattu.example.com, mitään sisältöä ei löytynyt  
   18:50 $ sudo nano /var/www/hattu.example.com/index.html  
 	Kirjoitin lyhyen tervehdyksen.  
+ ![great success](https://github.com/VaMaija/Linux2024/assets/142913118/71225e70-fd9e-4262-99ba-bbfbe5a854ae)
+
 	
-	Luodaan virtuaali-isännöitsijä:   
+Luodaan virtuaali-isännöitsijä:   
   19:05  
 		$ cd /etc/apache2/sites-available/  
 		/etc/apache2/sites-available$ sudo cp 000-default.conf ./hattu.example.com.conf  
 		/etc/apache2/sites-available$ sudo nano hattu.example.com.comf  
-	kirjoitin väliin ServerName ja ServerAliaksen ja loin yhteyden var/www/hattu.example.com, josta tiedot on luettavissa  
+    
+	Kirjoitin väliin ServerName ja ServerAliaksen ja loin yhteyden var/www/hattu.example.com, josta tiedot on luettavissa  
 	Seuraavaksi pitäisi ottaa hattu.example.com.conf käyttöön.   
 		/etc/apache2/sites-available$ sudo a2ensite hattu.example.com.comf  
-	Se ei onnistunut, sillä olen nimennyt tiedoston väärin: hattu.example.com.comf vaikka pitäisi olla hattu.example.com.conf   
+	Se ei onnistunut, sillä olen **nimennyt tiedoston väärin**: hattu.example.com.comf vaikka pitäisi olla hattu.example.com.conf   
 	Korjauspuuhat nimeämisessä: sudo mv hattu.example.com.comf hattu.example.com.conf  
 		/etc/apache2/sites-available$ sudo a2ensite hattu.example.com.conf  
 		/etc/apache2/sites-available$ sudo systemctl reload apache2   
 	Shift+reload ja localhost   
+ ![eka kokeilu](https://github.com/VaMaija/Linux2024/assets/142913118/203cea8f-ea22-4f45-be60-a2194fc2a1e9)
+
 	
 	korjataan tekstiä aloitussivulla     
 	/var/www/hattu.example.com$ sudo nano index.html  
  20:10  	
 	Näkymä localhostissa:  
+ 
+![modattu localhost -näkymä](https://github.com/VaMaija/Linux2024/assets/142913118/ea20d78e-e349-4cff-81f6-4bb4175e624e)
+
+ 
 
   
   
