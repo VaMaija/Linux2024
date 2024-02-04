@@ -80,7 +80,7 @@ Löysin käyttäjän tiedot:
 
   4.2.2024 18.20 availin virtuaalikoneen ja pakotin itseni tehtävän pariin. Tuntui kun aivoni olisivat tyhjentyneet kaikesta tarvittavasta tiedosta. 
 
-  Käytin apuna (Youtuben videota)[https://www.youtube.com/watch?v=rvwYzs6IMog&t=673s]
+  Käytin apuna [Youtuben videota](https://www.youtube.com/watch?v=rvwYzs6IMog&t=673s)
 
   18:20 $ sudo apt-get update | upgrade  
        $ sudo systemctl reboot apache2 (copypaste ei toiminut edelleenkään.)  
