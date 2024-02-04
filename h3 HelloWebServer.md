@@ -131,23 +131,15 @@ Löysin käyttäjän tiedot:
   user : read write execute 
 ![rwx](https://github.com/VaMaija/Linux2024/assets/142913118/9d3d69a9-4db3-4e8f-9a88-855d80adcb37)
 
+E) validi html5 -sivu
 
+väänsin Mörkäselähtipiiriin-idealla kotsivua, mutta homma kaatui loppumetreillä siihen, että en saanut apachea uudelleenkäynnistettyä. 
 
+![image](https://github.com/VaMaija/Linux2024/assets/142913118/1546cc90-6483-43d0-9c02-63a96b0209d2)
 
+![errorit](https://github.com/VaMaija/Linux2024/assets/142913118/1cda54f9-e5ca-413f-8d91-ee5431c96bdf)
 
-
-
-
-  
-
- 
-
-  
-  
-  
-
- 
-
+aivotoiminta ei riittänyt jatkamaan. Oli uniaika ja pistin virtuaalikoneenkin lepäämään. 
 
 
 
