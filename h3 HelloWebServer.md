@@ -82,7 +82,7 @@ Löysin käyttäjän tiedot:
 
   Käytin apuna [Youtuben videota](https://www.youtube.com/watch?v=rvwYzs6IMog&t=673s)
   
-  Luodaan tiedosto sivustolle ja localhostin tervehdys:  
+  **Luodaan tiedosto sivustolle ja localhostin tervehdys:**  
   18:20 $ sudo apt-get update | upgrade  
        $ sudo systemctl reboot apache2 (copypaste ei toiminut edelleenkään.)  
   18:33 sudo systemctl status apache2  
@@ -95,7 +95,7 @@ Löysin käyttäjän tiedot:
  ![great success](https://github.com/VaMaija/Linux2024/assets/142913118/71225e70-fd9e-4262-99ba-bbfbe5a854ae)
 
 	
-  Luodaan virtuaali-isännöitsijä:   
+  **Luodaan virtuaali-isännöitsijä:**   
   19:05  
 		$ cd /etc/apache2/sites-available/  
 		/etc/apache2/sites-available$ sudo cp 000-default.conf ./hattu.example.com.conf  
@@ -112,7 +112,7 @@ Löysin käyttäjän tiedot:
  ![eka kokeilu](https://github.com/VaMaija/Linux2024/assets/142913118/203cea8f-ea22-4f45-be60-a2194fc2a1e9)
 
 	
-	korjataan tekstiä aloitussivulla     
+  **korjataan tekstiä aloitussivulla**     
 	/var/www/hattu.example.com$ sudo nano index.html  
  20:10  	
 	Näkymä localhostissa:  
