@@ -31,14 +31,36 @@
 ![droplet hontti](https://github.com/VaMaija/Linux2024/assets/142913118/deb5c275-5e0e-455e-a0a9-f3b80551785a)
 ![speksit ja ip-osoite](https://github.com/VaMaija/Linux2024/assets/142913118/270a0a72-0c1e-4f55-8e50-69083130e2a0)
 
-
+  Tämän jälkeen suuntasin etäkäytön kautta kyseiseen osoitteeseen: 
+![ssh@root](https://github.com/VaMaija/Linux2024/assets/142913118/e485feb1-8b18-4d53-a940-8dd9bca9e738)
+![sormenjälki ja salasana rootiin](https://github.com/VaMaija/Linux2024/assets/142913118/18031b45-c424-4c85-9e91-db8b9d70a765)
+![palomuuri ennen apachea](https://github.com/VaMaija/Linux2024/assets/142913118/1dd07539-2912-407a-823a-6c17c616471a)
+  Palomuuri aiheutti harmaita hiuksia ja pistin koneen kiinni kiukkuisena.  
  
+## b) alkutoimet: 
+  Palasin agendaan sunnuntaina töiden jälkeen: 
+  Rennompana onnistuin saamaan palomuurin kuntoon ja reiän oikeaan paikkaan. 
 
+  loin käyttäjän maija, jolle annoin sudo-oikeudet (adduser maija, adduser maija sudo)  
+  Annoin maijalle myös adm oikeudet 
 
+  sitten jätin rootin rauhaan ja palasin touhuamaan maijana eli päivitin ohjelmistot updatella ja upgradella. 
 
+## C) weppipalvelin omalle palvelimelle: 
+
+![lopputulos](https://github.com/VaMaija/Linux2024/assets/142913118/d07ad696-49b9-43e4-80ea-60fb5681fc6c)
+ En saanut varaamaani nimeä petosmuija.pro -toimimaan sillö nimipalvelimella oli hieman haasteita palvelussa. Ja minulla oli haasteita huomata vahvistussähköpostia. 
+ Nimen ja ip:n yhdistäminen jäi tällä kertaa tekemättä. 
+
+ ip-osoitteella etsitty sivu näkyi puhelimella hyvin. 
+
+![namecheap kumossa](https://github.com/VaMaija/Linux2024/assets/142913118/b522dfb4-3fb5-4809-8578-712c01642061)
+
+Lähteet: 
+
+Lehto, https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/ luettu 11.2.2024
+Karvinen https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/ luettu 11.2.2024
+Tero Karvisen tunti 6.2.2024 
 
 
   
-
-
-
