@@ -26,7 +26,6 @@
  ostin Digitaloceanista tilaa kokeilulle: 
 
  ![digitalocean](https://github.com/VaMaija/Linux2024/assets/142913118/449747ba-782c-4786-912b-b4e08b865160)
-![´welcome](https://github.com/VaMaija/Linux2024/assets/142913118/78fae146-1755-46de-baec-503b98bda603)
 ![debian](https://github.com/VaMaija/Linux2024/assets/142913118/3d720cd6-fc2b-42bd-a500-4a653507efbc)
 ![cpu](https://github.com/VaMaija/Linux2024/assets/142913118/dba4d38e-7a34-4592-bf4c-de04612f061f)
 ![droplet hontti](https://github.com/VaMaija/Linux2024/assets/142913118/deb5c275-5e0e-455e-a0a9-f3b80551785a)
