@@ -58,7 +58,7 @@
 
 Lähteet: 
 
-Lehto, https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/ luettu 11.2.2024
+Lehto, https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/ luettu 11.2.2024  
 Karvinen https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/ luettu 11.2.2024
 Tero Karvisen tunti 6.2.2024 
 
