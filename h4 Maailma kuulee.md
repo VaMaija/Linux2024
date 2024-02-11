@@ -48,8 +48,8 @@
 
 ## C) weppipalvelin omalle palvelimelle: 
 
-![lopputulos](https://github.com/VaMaija/Linux2024/assets/142913118/d07ad696-49b9-43e4-80ea-60fb5681fc6c)
- En saanut varaamaani nimeä petosmuija.pro -toimimaan sillö nimipalvelimella oli hieman haasteita palvelussa. Ja minulla oli haasteita huomata vahvistussähköpostia. 
+![lopputulos](https://github.com/VaMaija/Linux2024/assets/142913118/d07ad696-49b9-43e4-80ea-60fb5681fc6c)  
+ En saanut varaamaani nimeä petosmuija.pro -toimimaan sillä nimipalvelimella oli hieman haasteita palvelussa. Ja minulla oli haasteita huomata vahvistussähköpostia. 
  Nimen ja ip:n yhdistäminen jäi tällä kertaa tekemättä. 
 
  ip-osoitteella etsitty sivu näkyi puhelimella hyvin. 
