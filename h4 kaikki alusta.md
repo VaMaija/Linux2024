@@ -115,7 +115,7 @@ koko juttu:
   20.07 ei onnistunut, koska root oli käytössä toisessa terminaalissa. Root -terminaalissa komento ”exit” päättää etäyhteyden. yritin samaa uudelleen lopetettuani root yhteyden. En onnistunut.  
   Tarkastin käskyn TeroKarvien.comista  ja käsky oli --lock root  
   annoin käskyn rootista ja sen jälkeen poistuin root -käyttäjän tilasta exitillä  
-  # usermod –lock root  
+  [root] usermod –lock root  
   $ sudoedit /etc/ssh/sshd_config  
   vaihdoin kohtaan PermitRootLogin sanan ”yes” manuaalisesti sana ”no”  
   $ sudo service ssh restart  
@@ -130,26 +130,24 @@ koko juttu:
    20:56 sudo apt-get install micro nano  
   luodaan konfiguraatiot   
 
-luodaan verkkosivun sisältö: 
-21:11 
-21:20 sudo a2ensite petosmuija.example.com.conf
-21:20 sudo a2dissite 000-default.com.conf
-21.24 sudo systemctl reboot apache2
-21.25 ssh maikki@petosmuija.pro	
-pääsin sisään. 
+  luodaan verkkosivun sisältö:  
+  21:11   
+  21:20 sudo a2ensite petosmuija.example.com.conf  
+  21:20 sudo a2dissite 000-default.com.conf  
+  21.24 sudo systemctl reboot apache2  
+  21.25 ssh maikki@petosmuija.pro	  
+  pääsin sisään.   
 
-20.2.2024 
-17:00 Jatkuu, minulla oli nyt kaksi ip-osoitetta 178.62.222.121 (hankittu 19.2.2024) ja 164.92.211.151 (hankittu 11.2.2024 ) lyömällä hakukenttään ip-osoitteen 164.92.211.151 tulee tulokseksi petosmuija.pro -sivut, jotka on luotu viime kerralla. 
-Lyömällä osoitteeksi 178.62.222.121 tulee tulokseksi echolla aluksi syöttämni tervehdys, joka löytyy osoitteesta /var/www/html/ eli alkuperäisestä index.html -osoitteesta eikä osoitteesta 
-cd /home/maikki/publicsites/petosmuija.example.com/index.html
-Löysin eilen luodusta petosmuijan configista puuttuvan puolipisteen, korjasin sen  ja uudelleenkäynnistin apachen. katsoin selaimesta toimiiko, ei toimi. Antoi uuden virheilmoituksen ”403, Access denied you are forbidden to access this resource” 
-Aavistein, että minun pitää antaa käyttölupa ko tietoon erikseen, mutta tarkastin asiaa 
-logitiedoista /var/log/apache2/  +less error.log, se antoi saman vastauksen. 
-Logitiedoista päättelin myös, että virtuaalikoneen kello on eri ajassa kuin rauta. 
-menin oman käyttäjän publicsites -kansioon ja annoin sieltä komennon cdmod o=r
-menin digitaloceanin dropletiin ja tuhosin ensimmisen ip-osoitteen jospa se auttaisi. 
-ei auttanut. 
-petosmuija.prota ei enää löydy eikä ip-osoitteeseen saa yhteyttä. 	
+  20.2.2024   
+  17:00 Jatkuu, minulla oli nyt kaksi ip-osoitetta 178.62.222.121 (hankittu 19.2.2024) ja 164.92.211.151 (hankittu 11.2.2024 ) lyömällä hakukenttään ip-osoitteen 164.92.211.151 tulee tulokseksi petosmuija.pro -sivut, jotka on luotu viime kerralla.  
+  Lyömällä osoitteeksi 178.62.222.121 tulee tulokseksi echolla aluksi syöttämni tervehdys, joka löytyy osoitteesta /var/www/html/ eli alkuperäisestä index.html -osoitteesta eikä osoitteesta 
+cd /home/maikki/publicsites/petosmuija.example.com/index.html  
+  Löysin eilen luodusta petosmuijan configista puuttuvan puolipisteen, korjasin sen  ja uudelleenkäynnistin apachen. katsoin selaimesta toimiiko, ei toimi. Antoi uuden virheilmoituksen ”403, Access denied you are forbidden to access this resource”  
+  Aavistein, että minun pitää antaa käyttölupa ko tietoon erikseen, mutta tarkastin asiaa logitiedoista /var/log/apache2/  +less error.log, se antoi saman vastauksen.  
+  Logitiedoista päättelin myös, että virtuaalikoneen kello on eri ajassa kuin rauta.  
+  Menin oman käyttäjän publicsites -kansioon ja annoin sieltä komennon cdmod o=r  
+  Menin digitaloceanin dropletiin ja tuhosin ensimmisen ip-osoitteen jospa se auttaisi. ei auttanut.   
+  petosmuija.prota ei enää löydy eikä ip-osoitteeseen saa yhteyttä. 	 
 
 
 
