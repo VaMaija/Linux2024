@@ -1,34 +1,34 @@
 a) 
 koko juttu: 
 
-18.2.2024 klo 19:53
-aloitus. 
-Hävitin edellisen koneen. 
+  18.2.2024 klo 19:53  
+  aloitus.  
+  Hävitin edellisen koneen.   
 
-Uusi kone:
-Base memory 4069MB ja virtuaalimuistia 40GB 
-käynnistin koneen iso -imagella debian-live-12.5.0-amd64-xfce.iso (ladattu 17.2.2024)
-Käynnistin Debianin valikon ensimmäisestä kohdasta (Live)
+  Uusi kone:  
+  Base memory 4069MB ja virtuaalimuistia 40GB   
+  käynnistin koneen iso -imagella debian-live-12.5.0-amd64-xfce.iso (ladattu 17.2.2024)  
+  Käynnistin Debianin valikon ensimmäisestä kohdasta (Live)  
+  
+  20:02 Klikkasin Install Debian -kuvakkeesta työpöydältä, ”launch anyway”    
+  Kieli American English  
+  Aikavyöhyke Helsinki  
+  Näppäimistö Finnish Default  
+  "erase disk"  
+  Täytin omat tietoni, salasanan ja koneen uuden nimen Ihmekone. Klikkasin alhaalta komentoa ”Install”  
+  20:07 – 20.25 valmis  
+  20:13 sudo apt-get update  
+  20:14 sudo apt-get upgrade  
+  20.15 sudo apt-get install ufw  
+  20:18 systemctl status ufw, palomuuri on koneessa, mutta se ei ole käynnissä.  
+  20:23 exit  
+  20:25 Ihmekoneen asennus valmis, uudelleenkäynnistys.  
+  
+  20:32 Ihmekoneen alkunäytöltä  Devices > Insert Guest additions DC image…   
+  File system -välilehdeltä VBox_GAs_7.0 > vasemmalla klikkauksella Mount    
+  poistin ”cd-levyn” levyasemasta.   
 
-20:02 Klikkasin Install Debian -kuvakkeesta työpöydältä, ”launch anyway”
-Kieli American English
-Aikavyöhyke Helsinki
-Näppäimistö Finnish Default
-+ erase disk
-Täytin omat tietoni, salasanan ja koneen uuden nimen Ihmekone. Klikkasin alhaalta komentoa ”Install”
-20:07 – 20.25 valmis
-20:13 sudo apt-get update
-20:14 sudo apt-get upgrade
-20.15 sudo apt-get install ufw
-20:18 systemctl status ufw, palomuuri on koneessa, mutta se ei ole käynnissä. 
-20:23 exit
-20:25 Ihmekoneen asennus valmis, uudelleenkäynnistys. 
-
-20:32 Ihmekoneen alkunäytöltä  Devices > Insert Guest additions DC image… 
-File system -välilehdeltä VBox_GAs_7.0 > vasemmalla klikkauksella Mount	
-poistin ”cd-levyn” levyasemasta. 
-
-Terminaalista 
+  Terminaalista   
 20:43 ei löytänyt ufw:n statusta
 sudo apt-get -y install ufw
 sudo ufw enable
