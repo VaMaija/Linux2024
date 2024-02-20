@@ -8,6 +8,9 @@ koko juttu:
   Uusi kone:  
   Base memory 4069MB ja virtuaalimuistia 40GB   
   käynnistin koneen iso -imagella debian-live-12.5.0-amd64-xfce.iso (ladattu 17.2.2024)  
+  ![Ihmekone1 aloitus](https://github.com/VaMaija/Linux2024/assets/142913118/20cdf160-9693-4c29-b825-fd35e1a2064e)
+  ![ihmekone2 tiedot](https://github.com/VaMaija/Linux2024/assets/142913118/08160cb0-123a-4f32-8774-9bec1b09d3bc)
+
   Käynnistin Debianin valikon ensimmäisestä kohdasta (Live)  
   
   20:02 Klikkasin Install Debian -kuvakkeesta työpöydältä, ”launch anyway”    
@@ -21,9 +24,12 @@ koko juttu:
   20:14 $ sudo apt-get upgrade  
   20.15 $ sudo apt-get install ufw  
   20:18 $ systemctl status ufw, palomuuri on koneessa, mutta se ei ole käynnissä.  
+  ![ihmekone3 tulimuuri kuoli](https://github.com/VaMaija/Linux2024/assets/142913118/e0da80f2-cef6-44d0-9fc0-8cc5d6ec281b)
+
   20:23 $ exit  
   20:25 Ihmekoneen asennus valmis, uudelleenkäynnistys.  
-  
+  ![ihmekone 4 valmis](https://github.com/VaMaija/Linux2024/assets/142913118/26eaadd6-93f8-433a-8608-3fdc888ea37e)
+
   20:32 Ihmekoneen alkunäytöltä  Devices > Insert Guest additions DC image…   
   File system -välilehdeltä VBox_GAs_7.0 > vasemmalla klikkauksella Mount    
   poistin ”cd-levyn” levyasemasta.   
