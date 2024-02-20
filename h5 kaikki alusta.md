@@ -157,6 +157,10 @@ cd /home/maikki/publicsites/petosmuija.example.com/index.html
   Menin digitaloceanin dropletiin ja tuhosin ensimmisen ip-osoitteen jospa se auttaisi. ei auttanut.   
   petosmuija.prota ei enää löydy eikä ip-osoitteeseen saa yhteyttä. 	 
 
+![portti 80 forbidden](https://github.com/VaMaija/Linux2024/assets/142913118/7c5814f3-f909-451e-8926-1294d6b7be52)
+![viimeinen tilanne](https://github.com/VaMaija/Linux2024/assets/142913118/5ed2201b-a658-450f-8a8a-741a8965ba60)
+
+
 
 
 https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
