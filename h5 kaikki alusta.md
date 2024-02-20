@@ -135,6 +135,8 @@ koko juttu:
   etusivulla taas shift + refresh  
    20:56 sudo apt-get install micro nano  
   luodaan konfiguraatiot   
+  ![petosmuija com konfiguraatiot](https://github.com/VaMaija/Linux2024/assets/142913118/5044a1e8-86b7-4b3f-bbdd-13d1cd0c41a2)
+
 
   luodaan verkkosivun sisältö:  
   21:11   
