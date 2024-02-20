@@ -159,11 +159,16 @@ cd /home/maikki/publicsites/petosmuija.example.com/index.html
 
 ![portti 80 forbidden](https://github.com/VaMaija/Linux2024/assets/142913118/7c5814f3-f909-451e-8926-1294d6b7be52)
 ![viimeinen tilanne](https://github.com/VaMaija/Linux2024/assets/142913118/5ed2201b-a658-450f-8a8a-741a8965ba60)
+ Olin antamassa periksi ja menin iltalehden sivuille virtuaalikoneen kautta. weppisivuja ei löydy. Kyse ei siis ollut pelkästään vääristä konfiguraatioista. Käynnistin koko virtuaalikoneen uudelleen.  
+ 
 
 
 
+lähteet: 
+  *https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/   
+  *https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/  
+  *https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/  
 
-https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
-https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
+
 
 
