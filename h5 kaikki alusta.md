@@ -17,11 +17,11 @@ koko juttu:
   "erase disk"  
   Täytin omat tietoni, salasanan ja koneen uuden nimen Ihmekone. Klikkasin alhaalta komentoa ”Install”  
   20:07 – 20.25 valmis  
-  20:13 sudo apt-get update  
-  20:14 sudo apt-get upgrade  
-  20.15 sudo apt-get install ufw  
-  20:18 systemctl status ufw, palomuuri on koneessa, mutta se ei ole käynnissä.  
-  20:23 exit  
+  20:13 $ sudo apt-get update  
+  20:14 $ sudo apt-get upgrade  
+  20.15 $ sudo apt-get install ufw  
+  20:18 $ systemctl status ufw, palomuuri on koneessa, mutta se ei ole käynnissä.  
+  20:23 $ exit  
   20:25 Ihmekoneen asennus valmis, uudelleenkäynnistys.  
   
   20:32 Ihmekoneen alkunäytöltä  Devices > Insert Guest additions DC image…   
@@ -30,28 +30,28 @@ koko juttu:
 
   Terminaalista   
   20:43 ei löytänyt ufw:n statusta  
-  sudo apt-get -y install ufw  
-  sudo ufw enable  
-  sudo apt-get install micro  
-  sudo apt-get install nano  
-  20:46 sudo apt-get install apache2  
-  20:49 muistin, että en ole käynnistänyt VBoxLinuxAdditionia. Suuntasin sinne: cd /media/maijav/ ja yritin löytää ls lomennolla tietoja. Siellä ei ollut mitään, koska olin poistanut cd-levyn asemasta. Menin GUI:n kautta laittamaan levyn takaisin. Palasin takaisin terminaaliin:  
+  $ sudo apt-get -y install ufw  
+  $ sudo ufw enable  
+  $ sudo apt-get install micro  
+  $ sudo apt-get install nano  
+  20:46 $ sudo apt-get install apache2  
+  20:49 muistin, että en ole käynnistänyt VBoxLinuxAdditionia. Suuntasin sinne: cd /media/maijav/ ja yritin löytää ls komennolla tietoja. Siellä ei ollut mitään, koska olin poistanut cd-levyn asemasta. Menin GUI:n kautta laittamaan levyn takaisin. Palasin takaisin terminaaliin:  
   /media/maijav/ ls ja sieltä löytyi ko kansio.   
-  20:53 sudo bash /media/maijav/VBox_GAs_7.0.14/VBoxLinuxAdditions.run  
+  20:53 $ sudo bash /media/maijav/VBox_GAs_7.0.14/VBoxLinuxAdditions.run  
   21:02 Restart   
   21:07 cd-levy pois asemasta  
   21:08 testasin toimiiko netti. Kello näyttää olevan oikeassa ajassa ja Iltalehden etusivu näyttää hyvältä.   
   21:10 Testasin localhost-etusivun. Näytti Apachen Default Pagen oikein.   
-  21:15 echo ”Virhepainallus, palaa takaisin lahtoruutuun” | sudo tee /var/www/html/index.html  
+  21:15 $ echo ”Virhepainallus, palaa takaisin lahtoruutuun” | sudo tee /var/www/html/index.html  
   21:18 localhost sivulle ja shift+refresh = teksti päivittyy localhost-sivulle  
-  21:21 sudoedit /etc/apache2/sites-available/ihmekone.example.com.conf  
-  21.27 cat /etc/apache2/sites-available/ihmekone.example.com.conf  
+  21:21 $ sudoedit /etc/apache2/sites-available/ihmekone.example.com.conf  
+  21.27 $ cat /etc/apache2/sites-available/ihmekone.example.com.conf  
   21:30 korjataan kirjoitusvirheet  
-  21:31 sudo a2ensite ihmekone.example.com  
-  21:32 sudo systemctl restart apache2  
-  21:33 mkdir -p /home/debian/publicsites/ihmekone.example.com  
+  21:31 $ sudo a2ensite ihmekone.example.com  
+  21:32 $ sudo systemctl restart apache2  
+  21:33 $ mkdir -p /home/debian/publicsites/ihmekone.example.com  
   ei lupaa. Tajusin, että kyseessä pitäsi olla /home/maijav/publicsites… korjaukset hostin conf -tiedostoon  
-  21:41 mkdir -p /home/maijav/publicsites/ihmekone.example.com  
+  21:41 $ mkdir -p /home/maijav/publicsites/ihmekone.example.com  
   21:45 echo lillerilalleri > /home/maijav/publicsites/ihmekone.example.com/index.html ei toiminut. Lillerilalleri ei lisääntynyt localhostin tekstiin.   
   21:48 cd /etc/apache2/  
   /etc/apache2/ cd sites-available/  
