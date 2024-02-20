@@ -145,7 +145,7 @@ cd /home/maikki/publicsites/petosmuija.example.com/index.html
   Löysin eilen luodusta petosmuijan configista puuttuvan puolipisteen, korjasin sen  ja uudelleenkäynnistin apachen. katsoin selaimesta toimiiko, ei toimi. Antoi uuden virheilmoituksen ”403, Access denied you are forbidden to access this resource”  
   Aavistein, että minun pitää antaa käyttölupa ko tietoon erikseen, mutta tarkastin asiaa logitiedoista /var/log/apache2/  +less error.log, se antoi saman vastauksen.  
   Logitiedoista päättelin myös, että virtuaalikoneen kello on eri ajassa kuin rauta.  
-  Menin oman käyttäjän publicsites -kansioon ja annoin sieltä komennon cdmod o=r  
+  Menin oman käyttäjän publicsites -kansioon ja annoin sieltä komennon chmod o=r  
   Menin digitaloceanin dropletiin ja tuhosin ensimmisen ip-osoitteen jospa se auttaisi. ei auttanut.   
   petosmuija.prota ei enää löydy eikä ip-osoitteeseen saa yhteyttä. 	 
 
