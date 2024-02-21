@@ -192,8 +192,8 @@ cd /home/maikki/publicsites/petosmuija.example.com/index.html
 
    Asiaa ei ole opetettu kurssilla millään tavoin. Menin hommassa [Youtubevideon](https://www.google.com/search?sca_esv=d15b179212b804a0&sxsrf=ACQVn08ruDZ3dT07lgLYvGloOoj3Xf2TdQ:1708528928385&q=using+host+and+dig+debian+12&tbm=vid&source=lnms&sa=X&ved=2ahUKEwiQn_We3ryEAxWFKxAIHSfnB5UQ0pQJegQIDBAB&biw=1707&bih=781&dpr=1.13#fpstate=ive&vld=cid:7f58e41b,vid:_rK2CZfvWZk,st:0) avulla eteenpäin.  
 
-   $ sudo apt-get install -y bind9-dnsutils bind9-host
-   $ dig petosmuija.pro
+   $ sudo apt-get install -y bind9-dnsutils bind9-host  
+   $ dig petosmuija.pro  
   ![dig petosmuija pro](https://github.com/VaMaija/Linux2024/assets/142913118/7c3dc47c-b3ad-404a-bb7f-08471379c0a0)
 
   kuvasta näkyy, että petosmuija.pro -sivusto vastaa ip:stä 178.62.222.121 ei erroreita. Server vastaa osoitteesta 67.207.67.2 . Tämä on [traficomin](https://www.traficom.fi/en/communications/fi-domains/whois-shows-public-information-domain-name) ip-tiedustelun mukaan digitaloceanin osoite.  
