@@ -150,7 +150,7 @@ koko juttu:
   17:00 Jatkuu, minulla oli nyt kaksi ip-osoitetta 178.62.222.121 (hankittu 19.2.2024) ja 164.92.211.151 (hankittu 11.2.2024 ) lyömällä hakukenttään ip-osoitteen 164.92.211.151 tulee tulokseksi petosmuija.pro -sivut, jotka on luotu viime kerralla.  
   Lyömällä osoitteeksi 178.62.222.121 tulee tulokseksi echolla aluksi syöttämni tervehdys, joka löytyy osoitteesta /var/www/html/ eli alkuperäisestä index.html -osoitteesta eikä osoitteesta 
 cd /home/maikki/publicsites/petosmuija.example.com/index.html  
-  Löysin eilen luodusta petosmuijan configista puuttuvan puolipisteen, korjasin sen  ja uudelleenkäynnistin apachen. katsoin selaimesta toimiiko, ei toimi. Antoi uuden virheilmoituksen ”403, Access denied you are forbidden to access this resource”  
+  Löysin eilen luodusta petosmuijan configista puuttuvan kaksoispisteen, korjasin sen  ja uudelleenkäynnistin apachen. katsoin selaimesta toimiiko, ei toimi. Antoi uuden virheilmoituksen ”403, Access denied you are forbidden to access this resource”  
   Aavistein, että minun pitää antaa käyttölupa ko tietoon erikseen, mutta tarkastin asiaa logitiedoista /var/log/apache2/  +less error.log, se antoi saman vastauksen.  
   Logitiedoista päättelin myös, että virtuaalikoneen kello on eri ajassa kuin rauta.  
   Menin oman käyttäjän publicsites -kansioon ja annoin sieltä komennon chmod o=r  
@@ -161,6 +161,30 @@ cd /home/maikki/publicsites/petosmuija.example.com/index.html
 ![viimeinen tilanne](https://github.com/VaMaija/Linux2024/assets/142913118/5ed2201b-a658-450f-8a8a-741a8965ba60)
  Olin antamassa periksi ja menin iltalehden sivuille virtuaalikoneen kautta. weppisivuja ei löydy. Kyse ei siis ollut pelkästään vääristä konfiguraatioista. Käynnistin koko virtuaalikoneen uudelleen.  
  
+## B) ssh
+
+  Tähän piti etsiä tietoja paljon netistä, koska asiasta ei ollut juuri opetusmateriaalia kurssilla.  
+  21.2.2024  
+  Kirjauduin sisälle etäyhteydellä  
+  $ ssh maikki@petosmuija.pro  
+  $ ssh-keygen  
+  Hyväksyin ehdotetun tallennuspaikan ( /home/maikki/ .sh/id_rsa) painamalla enter  
+  En antanut salasanaa tai lausetta, menin eteenpäin painamalla enter/return, sain key fingerprintin.  
+  Varmistin, että avaimen .ssh hakemiston käyttöoikeudet ovat vain omistajalla ja avaimen myös  
+  Omistajalle täydet oikeudet kansioon:   
+  $ chmod u=rwx, go= .ssh  
+    Omistajalle täydet oikeudet avaimiin:   
+  $ chmod=rwx, go= .ssh/*  
+  $ ls -l ~/ .ssh/* näytti, että id_rsa (yksityinen avain) ja id_rsa.pub on tallennettuna Maikki käyttäjälle.  
+  $ cat ~/ .ssh/id_rsa.pub näytti julkisen avaimen.  
+  kopioin julkisen avaimen seuraavalla käskyllä   
+  $ ssh-copy-id maikki@178.62.222.121, jolloin sama julkinen avain kopioitui palvelimen authorized_keys -kohtaan. Tarkistin sen komennolla  
+  $ cat ~/ .ssh/autohorized_keys  
+  Kyseinen komento antoi näkyviin julkisen avaimen.   
+  Käyttöön ohjeistus täältä   
+  Youtube, Akamai developer https://www.google.com/search?q=youtube+ssh+keygen+linux&sca_esv=ca099d9a36fc4ee2&sxsrf=ACQVn09NxqKBwrsV2Y9OofIdz0XyNuOSoA%3A1708515495918&ei=p-DVZcPTN6vUwPAPjNSpgAk&udm=&oq=youtube+ssh+keygen+lin&gs_lp=Egxnd3Mtd2l6LXNlcnAiFnlvdXR1YmUgc3NoIGtleWdlbiBsaW4qAggAMgUQIRigATIFECEYoAEyBRAhGKABSPMZUIIGWNUKcAF4AZABAJgBpQGgAd0DqgEDMS4zuAEByAEA-AEBwgIKEAAYRxjWBBiwA8ICBhAAGBYYHogGAZAGCA&sclient=gws-wiz-serp#fpstate=ive&vld=cid:5da732e0,vid:33dEcCKGBO4,st:0  katsottu 21.2.2024 ja täältä 
+ Helsingin yliopisto https://www.cs.helsinki.fi/group/kuje/compfac/ssh_avain.html  luettu 21.2.2024  
+
 
 
 
