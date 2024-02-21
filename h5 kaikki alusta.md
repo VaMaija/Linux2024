@@ -199,7 +199,12 @@ cd /home/maikki/publicsites/petosmuija.example.com/index.html
   kuvasta näkyy, että petosmuija.pro -sivusto vastaa ip:stä 178.62.222.121 ei erroreita. Server vastaa osoitteesta 67.207.67.2 . Tämä on [traficomin](https://www.traficom.fi/en/communications/fi-domains/whois-shows-public-information-domain-name) ip-tiedustelun mukaan digitaloceanin osoite.  
   ![traficom ip](https://github.com/VaMaija/Linux2024/assets/142913118/856a047b-6fe4-4b9f-9956-4ec19afbbae8)
 
+ **Host**
 
+ $ host petosmuija.pro  
+ ![host petosmuija pro](https://github.com/VaMaija/Linux2024/assets/142913118/a2d0627b-2c45-4633-a226-c53be9c83cce)
+
+ 
    
 
    
