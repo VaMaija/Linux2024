@@ -188,6 +188,23 @@ cd /home/maikki/publicsites/petosmuija.example.com/index.html
   Youtube, [Akamai developer](https://www.google.com/search?q=youtube+ssh+keygen+linux&sca_esv=ca099d9a36fc4ee2&sxsrf=ACQVn09NxqKBwrsV2Y9OofIdz0XyNuOSoA%3A1708515495918&ei=p-DVZcPTN6vUwPAPjNSpgAk&udm=&oq=youtube+ssh+keygen+lin&gs_lp=Egxnd3Mtd2l6LXNlcnAiFnlvdXR1YmUgc3NoIGtleWdlbiBsaW4qAggAMgUQIRigATIFECEYoAEyBRAhGKABSPMZUIIGWNUKcAF4AZABAJgBpQGgAd0DqgEDMS4zuAEByAEA-AEBwgIKEAAYRxjWBBiwA8ICBhAAGBYYHogGAZAGCA&sclient=gws-wiz-serp#fpstate=ive&vld=cid:5da732e0,vid:33dEcCKGBO4,st:0)  katsottu 21.2.2024 ja täältä 
  [Helsingin yliopisto](https://www.cs.helsinki.fi/group/kuje/compfac/ssh_avain.html)  luettu 21.2.2024  
 
+ ## C) digging host
+
+   Asiaa ei ole opetettu kurssilla millään tavoin. Menin hommassa [Youtubevideon](https://www.google.com/search?sca_esv=d15b179212b804a0&sxsrf=ACQVn08ruDZ3dT07lgLYvGloOoj3Xf2TdQ:1708528928385&q=using+host+and+dig+debian+12&tbm=vid&source=lnms&sa=X&ved=2ahUKEwiQn_We3ryEAxWFKxAIHSfnB5UQ0pQJegQIDBAB&biw=1707&bih=781&dpr=1.13#fpstate=ive&vld=cid:7f58e41b,vid:_rK2CZfvWZk,st:0) avulla eteenpäin.  
+
+   $ sudo apt-get install -y bind9-dnsutils bind9-host
+   $ dig petosmuija.pro
+  ![dig petosmuija pro](https://github.com/VaMaija/Linux2024/assets/142913118/7c3dc47c-b3ad-404a-bb7f-08471379c0a0)
+
+  kuvasta näkyy, että petosmuija.pro -sivusto vastaa ip:stä 178.62.222.121 ei erroreita. Server vastaa osoitteesta 67.207.67.2 . Tämä on [traficomin](https://www.traficom.fi/en/communications/fi-domains/whois-shows-public-information-domain-name) ip-tiedustelun mukaan digitaloceanin osoite.  
+  ![traficom ip](https://github.com/VaMaija/Linux2024/assets/142913118/856a047b-6fe4-4b9f-9956-4ec19afbbae8)
+
+
+   
+
+   
+
+
 
 
 
