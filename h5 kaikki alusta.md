@@ -1,5 +1,19 @@
-a) 
-koko juttu: 
+# Kaikki alusta
+  
+  Pohjat:  
+  Kone:  
+  Käytössäni on käytettynä hankittu HP Elitebook DESKTOP-284RPGL  
+  Suoritin Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz 2.40 GHz -Asennettu RAM 16,0 Gt (15,4 Gt käytettävissä)  
+  Keskusmuistia käyettävissä 8,3 Gt  
+  Koneeseen on asennettu: Windows 10 Education suomeksi Versio 22H2  
+  päivitetty 17.1.2024  
+
+  Virtuaalikone:  
+  Oracle VM virtual Box tuoteversio 7.0.14.16195  
+  siinä käytössä Debian (live 12.4.0-amd-xfce.iso)  latasin live 12.5.0-amd-xfce.iso -kuvakkeen  
+  
+
+## a) koko juttu: 
 
   18.2.2024 klo 19:53  
   aloitus.  
@@ -34,7 +48,7 @@ koko juttu:
   File system -välilehdeltä VBox_GAs_7.0 > vasemmalla klikkauksella Mount    
   poistin ”cd-levyn” levyasemasta.   
 
-  Terminaalista   
+  **Terminaalista**   
   20:43 ei löytänyt ufw:n statusta  
   $ sudo apt-get -y install ufw  
   $ sudo ufw enable  
@@ -72,7 +86,7 @@ koko juttu:
   sudoedit /etc/hosts -kautta voisin asentaa ihmekoneen ip-osoitteeksi ostamani ip-osoitteen.   
   Uniaika 22:14 kone pauselle  
 
-  jatkuu 19.2.2024 18:30 luin raportistani, mitä olin jo tehnyt. Katselin ottamani kuvakaappaukset myös.  
+  **jatkuu 19.2.2024** 18:30 luin raportistani, mitä olin jo tehnyt. Katselin ottamani kuvakaappaukset myös.  
   etsin localhostiin vaikuttavan index.html -tiedoston ja vaihdoin siihen tekstin:   
   ~/publicsites/ihmekone.example.com$ echo ”tuttuluu” > index.html  
   18:40 Tarkastin etusivulta, että teksti vaihtui sopivaksi.   
@@ -93,7 +107,7 @@ koko juttu:
   	hostname ihmekone  
   	tags #petosmuija   
 
-  Sitten namecheapiin:   
+  **Sitten namecheapiin**:   
   19:29 kirjauduin sisään namecheapiin ja menin omalle profiilisivulleni.  
   Advanced DNS kohdasta poistin petosmuija.pro nimen aiemmalta ip-osoitteelta 164.92.211.151  
   ”Remove”  
@@ -138,7 +152,7 @@ koko juttu:
   ![petosmuija com konfiguraatiot](https://github.com/VaMaija/Linux2024/assets/142913118/5044a1e8-86b7-4b3f-bbdd-13d1cd0c41a2)
 
 
-  luodaan verkkosivun sisältö:  
+  **luodaan verkkosivun sisältö**:  
   21:11   
   21:20 sudo a2ensite petosmuija.example.com.conf  
   21:20 sudo a2dissite 000-default.com.conf  
@@ -146,7 +160,7 @@ koko juttu:
   21.25 ssh maikki@petosmuija.pro	  
   pääsin sisään.   
 
-  20.2.2024   
+ **20.2.2024**   
   17:00 Jatkuu, minulla oli nyt kaksi ip-osoitetta 178.62.222.121 (hankittu 19.2.2024) ja 164.92.211.151 (hankittu 11.2.2024 ) lyömällä hakukenttään ip-osoitteen 164.92.211.151 tulee tulokseksi petosmuija.pro -sivut, jotka on luotu viime kerralla.  
   Lyömällä osoitteeksi 178.62.222.121 tulee tulokseksi echolla aluksi syöttämni tervehdys, joka löytyy osoitteesta /var/www/html/ eli alkuperäisestä index.html -osoitteesta eikä osoitteesta 
 cd /home/maikki/publicsites/petosmuija.example.com/index.html  
