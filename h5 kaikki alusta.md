@@ -234,8 +234,9 @@ cd /home/maikki/publicsites/petosmuija.example.com/index.html
  [Helsingin yliopisto](https://www.cs.helsinki.fi/group/kuje/compfac/ssh_avain.html)  luettu 21.2.2024  
 
   dig ja host  
-  [@IDGTECHtalk](https://www.youtube.com/watch?v=_rK2CZfvWZk) katsottu 21.2.2024 
+  [@IDGTECHtalk](https://www.youtube.com/watch?v=_rK2CZfvWZk) katsottu 21.2.2024  
   [Geeks for geeks-sivusto](https://www.geeksforgeeks.org/host-command-in-linux-with-examples/)  luettu 21.2.2024
+  [Traficom](https://www.traficom.fi/en/communications/fi-domains/whois-shows-public-information-domain-name) katsottu 21.2.2024
 
  
 
