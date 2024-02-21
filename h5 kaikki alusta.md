@@ -202,7 +202,15 @@ cd /home/maikki/publicsites/petosmuija.example.com/index.html
  **Host**
 
  $ host petosmuija.pro  
- ![host petosmuija pro](https://github.com/VaMaija/Linux2024/assets/142913118/a2d0627b-2c45-4633-a226-c53be9c83cce)
+ ![host petosmuija pro](https://github.com/VaMaija/Linux2024/assets/142913118/a2d0627b-2c45-4633-a226-c53be9c83cce)  
+ komento antoi nytille tiedon, että minulla on käytössäni ilmeisesti sähköpostin välityspalvelin. Kävin kasomassa tilanteen namecheapin asetuksista ja vaihdoin asetukset niin, että sähköpostipalvelua ei tarvita. 
+ ![vaihto namecheapissa](https://github.com/VaMaija/Linux2024/assets/142913118/cc10c06c-18ef-4e2c-b88c-e346aa262c4a)
+  Homma muuttui seuraavasti : 
+ ![before after sähköposti](https://github.com/VaMaija/Linux2024/assets/142913118/e0005383-ee7d-48b4-9034-8416596e5100)
+
+  
+ 
+
 
  
    
