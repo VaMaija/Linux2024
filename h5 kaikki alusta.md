@@ -233,7 +233,7 @@ cd /home/maikki/publicsites/petosmuija.example.com/index.html
    ![eipä onnistunut](https://github.com/VaMaija/Linux2024/assets/142913118/f689f1c9-1b96-4069-a707-22f91a8b84af)
 
 
-  
+  Tehtävien tekemiseen meni kolme iltaa. Alkoi 19.2.2024 klo 19:54 ja lopetin 21.2.2024 21.2.2024 klo 19:25 . 
  
 
 
