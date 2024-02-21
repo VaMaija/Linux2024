@@ -223,18 +223,19 @@ cd /home/maikki/publicsites/petosmuija.example.com/index.html
 
 
 
-lähteet: 
-  Tero karvinen: *https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/   
-  *https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/  
-  Susanna Lehto  *https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/  
+### lähteet:  
+
+  Tero karvinen: *https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/  luettu 19.2., 20.2., 21.2. 
+  *https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/  luettu 19.2., 20.2., 21.2.
+  Susanna Lehto  *https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/  luettu 19.2., 20.2., 21.2.
 
   [Akamai developer](https://www.youtube.com/watch?v=33dEcCKGBO4&t=907s))  katsottu 21.2.2024
   
  [Helsingin yliopisto](https://www.cs.helsinki.fi/group/kuje/compfac/ssh_avain.html)  luettu 21.2.2024  
 
   dig ja host  
-  @IDGTECHtalk https://www.youtube.com/watch?v=_rK2CZfvWZk katsottu 21.2.2024 
-  Geeks for geeks-sivusto https://www.geeksforgeeks.org/host-command-in-linux-with-examples/  luettu 21.2.2024
+  [@IDGTECHtalk](https://www.youtube.com/watch?v=_rK2CZfvWZk) katsottu 21.2.2024 
+  [Geeks for geeks-sivusto](https://www.geeksforgeeks.org/host-command-in-linux-with-examples/)  luettu 21.2.2024
 
  
 
