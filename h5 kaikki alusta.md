@@ -11,6 +11,7 @@
   Virtuaalikone:  
   Oracle VM virtual Box tuoteversio 7.0.14.16195  
   siinä käytössä Debian (live 12.4.0-amd-xfce.iso)  latasin live 12.5.0-amd-xfce.iso -kuvakkeen  
+  Käytän nettiä matkapuhelimen kautta mobiilitukiasemasta. 
   
 
 ## a) koko juttu: 
@@ -223,6 +224,14 @@ cd /home/maikki/publicsites/petosmuija.example.com/index.html
  ![before after sähköposti](https://github.com/VaMaija/Linux2024/assets/142913118/e0005383-ee7d-48b4-9034-8416596e5100)
 
  
+ ## m) vagrant
+
+   kokeilu epäonnistui  
+
+   ![vagrant epäonnistuminen](https://github.com/VaMaija/Linux2024/assets/142913118/9da31506-31fc-4e38-8457-abdcf530b456)
+
+   ![eipä onnistunut](https://github.com/VaMaija/Linux2024/assets/142913118/f689f1c9-1b96-4069-a707-22f91a8b84af)
+
 
   
  
@@ -231,13 +240,14 @@ cd /home/maikki/publicsites/petosmuija.example.com/index.html
  
    
 
-   
 
 
 
 
 
 ### lähteet:  
+
+  uusi iso-kuvake https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/ 
 
   Tero karvinen: *https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/  luettu 19.2., 20.2., 21.2. 
   *https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/  luettu 19.2., 20.2., 21.2.
