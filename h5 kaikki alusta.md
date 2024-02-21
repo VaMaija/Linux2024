@@ -181,9 +181,9 @@ cd /home/maikki/publicsites/petosmuija.example.com/index.html
   $ ssh-copy-id maikki@178.62.222.121, jolloin sama julkinen avain kopioitui palvelimen authorized_keys -kohtaan. Tarkistin sen komennolla  
   $ cat ~/ .ssh/autohorized_keys  
   Kyseinen komento antoi näkyviin julkisen avaimen.   
-  Käyttöön ohjeistus täältä   
-  Youtube, Akamai developer https://www.google.com/search?q=youtube+ssh+keygen+linux&sca_esv=ca099d9a36fc4ee2&sxsrf=ACQVn09NxqKBwrsV2Y9OofIdz0XyNuOSoA%3A1708515495918&ei=p-DVZcPTN6vUwPAPjNSpgAk&udm=&oq=youtube+ssh+keygen+lin&gs_lp=Egxnd3Mtd2l6LXNlcnAiFnlvdXR1YmUgc3NoIGtleWdlbiBsaW4qAggAMgUQIRigATIFECEYoAEyBRAhGKABSPMZUIIGWNUKcAF4AZABAJgBpQGgAd0DqgEDMS4zuAEByAEA-AEBwgIKEAAYRxjWBBiwA8ICBhAAGBYYHogGAZAGCA&sclient=gws-wiz-serp#fpstate=ive&vld=cid:5da732e0,vid:33dEcCKGBO4,st:0  katsottu 21.2.2024 ja täältä 
- Helsingin yliopisto https://www.cs.helsinki.fi/group/kuje/compfac/ssh_avain.html  luettu 21.2.2024  
+  Käyttöön ohjeistus täältä:    
+  Youtube, [Akamai developer](https://www.google.com/search?q=youtube+ssh+keygen+linux&sca_esv=ca099d9a36fc4ee2&sxsrf=ACQVn09NxqKBwrsV2Y9OofIdz0XyNuOSoA%3A1708515495918&ei=p-DVZcPTN6vUwPAPjNSpgAk&udm=&oq=youtube+ssh+keygen+lin&gs_lp=Egxnd3Mtd2l6LXNlcnAiFnlvdXR1YmUgc3NoIGtleWdlbiBsaW4qAggAMgUQIRigATIFECEYoAEyBRAhGKABSPMZUIIGWNUKcAF4AZABAJgBpQGgAd0DqgEDMS4zuAEByAEA-AEBwgIKEAAYRxjWBBiwA8ICBhAAGBYYHogGAZAGCA&sclient=gws-wiz-serp#fpstate=ive&vld=cid:5da732e0,vid:33dEcCKGBO4,st:0)  katsottu 21.2.2024 ja täältä 
+ [Helsingin yliopisto](https://www.cs.helsinki.fi/group/kuje/compfac/ssh_avain.html)  luettu 21.2.2024  
 
 
 
