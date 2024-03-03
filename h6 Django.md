@@ -2,21 +2,22 @@ X) Lue ja tiivistä.
 Verkkosivuillaan artikkelissaan [Django 4 Instant Customer Database Tutorial]( https://terokarvinen.com/2022/django-instant-crm-tutorial/) Tero Karvinen antoi ohjeet Django weppisovelluksen julkaisemisesta palvelimelle. Siinä on ohjeet asiakastieto-projektin luomisesta ja projektin konfiguraatioiden tekemisestä. Ohjeissa käydään läpi myös PostgreSQL-tietokantaa, mutta en ymmärrä tässä vaiheessa sisältöä tarpeeksi. 
 Toisessa Tero Karvisen artikkelissa [Deploy Django 4]( https://terokarvinen.com/2022/deploy-django/)  hän antaa samaan aiheeseen liittyen yksityiskohtaisemmat ohjeet 
 
-Lähteet: 
-https://chat.openai.com/c/c74f0736-1548-4a1e-bf29-d4ada38ace07
-Terokarvinen.com
+Lähteet:  
+  Terokarvinen.com  
+  https://chat.openai.com/c/c74f0736-1548-4a1e-bf29-d4ada38ace07  
+ 
 
 Su 3.3.2024 17:57
 ~$ sudo apt-get update
 ~$ sudo apt-get upgrade
-~$ sudo apt-get -y install virtualenv
-Virtualenv (Virtual Environment) on työkalu Pythonin kehittäjille, joka mahdollistaa erillisen Python-ympäristön luomisen projektin tarpeisiin. Tämä tarkoittaa sitä, että voit luoda erillisen Python-ympäristön jokaiselle projektille ja hallita projektikohtaisia riippuvuuksia erillään muista projekteista. (Chatgpt)
-$ virtualenv --system-site-packages -p python3 env/
-virtualenv on komento, joka käynnistää virtuaaliympäristön luonnin
---system-site-packages mahdollistaa pääsyn järjestelmän Python asenjuksen kirjastoihin virtguaaliympäristöstä. 
--p Python3 ilmoitta, että haluamme käyttää Python3 virtuaaliympäristön tulkkina. 
-env/  hakemisto, johon virtuaaliympäristö luodaan. 
-$ source env/bin/activate
+~$ sudo apt-get -y install virtualenv  
+  Virtualenv (Virtual Environment) on työkalu Pythonin kehittäjille, joka mahdollistaa erillisen Python-ympäristön luomisen projektin tarpeisiin. Tämä tarkoittaa sitä, että voit luoda erillisen Python-ympäristön jokaiselle projektille ja hallita projektikohtaisia riippuvuuksia erillään muista projekteista. (Chatgpt)  
+$ virtualenv --system-site-packages -p python3 env/  
+  virtualenv on komento, joka käynnistää virtuaaliympäristön luonnin  
+  --system-site-packages mahdollistaa pääsyn järjestelmän Python asenjuksen kirjastoihin virtguaaliympäristöstä.   
+  -p Python3 ilmoitta, että haluamme käyttää Python3 virtuaaliympäristön tulkkina.   
+  env/  hakemisto, johon virtuaaliympäristö luodaan.   
+$ source env/bin/activate  
 lisäsi env-laatikon käyttäjänimen eteen merkiksi siitä, että toimitaan juuri luodussa virtuaaliympäristössä. 
 $ which pip
 /home/maijav/env/bin/pip 
