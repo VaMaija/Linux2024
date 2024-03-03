@@ -76,6 +76,7 @@ $ virtualenv --system-site-packages -p python3 env/
 
   $ ./manage.py migrate 	soveltaa juuri haettuja tietokantoja tietokantaan  
   $ ./manage.py runserver antaa virheilmoituksen, jonka mukaan olen tehnyt kirjoitusvirheen:  
+![9  managemigrations](https://github.com/VaMaija/Linux2024/assets/142913118/22caeafd-a850-4670-91e4-1b4c409dcece)
 
   $ micro crm/admin.py  
   kirjoitusvirheen korjaaminen   
