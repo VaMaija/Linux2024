@@ -93,3 +93,45 @@ $ virtualenv --system-site-packages -p python3 env/
   ![13  kanio kansion sisällä](https://github.com/VaMaija/Linux2024/assets/142913118/d483aa34-663a-4847-be17-5e28f57041ab)
 
   Takana sen verran rankka viikko, että jätin tehtävän tässä vaiheessa tähän ja palaan uusilla aivoilla asiaan myöhemmin.   
+
+
+
+    EDIT:   
+
+    Jatkuu ma 4.3.2024 klo 20:19  
+
+    $ sudo apt-get update  
+  $ sudo apt-get upgrade  
+  $ sudo apt-get -y install bash-completion  
+  $ export EDITOR=micro  
+  bash-completion on työkalu, joka laajentaa bash-terminaalin automaattisen täydennyksen toiminnallisuutta, mikä helpottaa komentojen ja tiedostojen nimeämistä.  
+  $ sudo apt-get install apache2  
+  localhostina näkyy apachen default-sivu  
+  $ echo ”testihommat” | sudo tee /var/www/html/index.html   
+  toimii localhostin sivulla.   
+  $ mkdir -p publicwsgi/petosmuija/static/  
+  $ echo "petosmuijajutut talla sivulla" | tee publicwsgi/petosmuija/static/index.html  
+  $ sudo a2ensite petosmuija.conf  
+  $ sudo a2dissite 000-default.conf  
+  $ sudo sytemctl restart apache2  
+  petosmuijan testisivu näkyy localhost/static/ -osoitteessa   
+   $ sudo apt-get -y install virtualenv  
+  $ cd publicwsgi/   
+  /publicwsgi$ virtualenv -p python3 --system-site-packages env  
+  /publicwsgi$ source env/bin/activate  
+  /publicwsgi$ which pip  
+           /home/maijav/publicwsgi/env/bin/pip  
+  /publicwsgi$ micro requirements.txt  
+       django  
+  /publicwsgi$ pip install -r requirements.txt  
+  /publicwsgi$ django-admin –version  
+     5.0.3  
+  ~/publicwsgi$ django-admin startproject maanantaiprojekti  
+  ~/publicwsgi$ sudo apt-get -y install libapache2-mod-wsgi-py3  
+  /publicwsgi$ /sbin/apache2ctl configtest  
+  syntax ok  
+  ~/publicwsgi$ sudo systemctl restart apache2  
+  ~/publicwsgi$ curl -s localhost|grep title  
+  403 forbidden   
+
+  
