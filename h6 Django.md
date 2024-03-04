@@ -131,12 +131,14 @@ $ virtualenv --system-site-packages -p python3 env/
   ~/publicwsgi$ ls
   env  maanantaiprojekti  petosmuija  requirements.txt
   ~/publicwsgi$ sudoedit /etc/apache2/sites-available/petosmuija.conf  
-  
+  ![15  maanantaiprojekti](https://github.com/VaMaija/Linux2024/assets/142913118/64153d19-7ed2-49dc-a934-20faae1c24e1)
+
   ~/publicwsgi$ sudo apt-get -y install libapache2-mod-wsgi-py3  
   /publicwsgi$ /sbin/apache2ctl configtest  
   syntax ok  
   ~/publicwsgi$ sudo systemctl restart apache2  
   ~/publicwsgi$ curl -s localhost|grep title  
   403 forbidden   
+![16  error 403](https://github.com/VaMaija/Linux2024/assets/142913118/e35ccea4-a03b-49df-b622-b3abeabde340)
 
   
