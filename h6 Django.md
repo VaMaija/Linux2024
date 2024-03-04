@@ -115,7 +115,8 @@ $ virtualenv --system-site-packages -p python3 env/
   $ sudo a2dissite 000-default.conf  
   $ sudo sytemctl restart apache2  
   petosmuijan testisivu näkyy localhost/static/ -osoitteessa   
-   $ sudo apt-get -y install virtualenv  
+  ![14  petosmuija static](https://github.com/VaMaija/Linux2024/assets/142913118/9ae6f066-a9a0-4152-a22f-4ec05391bd5b)  
+  $ sudo apt-get -y install virtualenv  
   $ cd publicwsgi/   
   /publicwsgi$ virtualenv -p python3 --system-site-packages env  
   /publicwsgi$ source env/bin/activate  
@@ -127,6 +128,10 @@ $ virtualenv --system-site-packages -p python3 env/
   /publicwsgi$ django-admin –version  
      5.0.3  
   ~/publicwsgi$ django-admin startproject maanantaiprojekti  
+  ~/publicwsgi$ ls
+  env  maanantaiprojekti  petosmuija  requirements.txt
+  ~/publicwsgi$ sudoedit /etc/apache2/sites-available/petosmuija.conf  
+  
   ~/publicwsgi$ sudo apt-get -y install libapache2-mod-wsgi-py3  
   /publicwsgi$ /sbin/apache2ctl configtest  
   syntax ok  
