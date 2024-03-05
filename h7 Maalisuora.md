@@ -23,28 +23,33 @@
 
 
 
-###b) 
-$ micro käyttäjätiedot
-$ cat käyttäjätiedot
-#!/usr/bin/bash
-date  #komennon ajankohta
-id #käyttäjätiedot
-last # Viimeiset koneelle kirjautuneet käyttäjät
+  ### b)  uusi komento kaikille  
+  $ micro käyttäjätiedot  
+  $ cat käyttäjätiedot  
+  #!/usr/bin/bash  
+  date  #komennon ajankohta  
+  id #käyttäjätiedot  
+  last # Viimeiset koneelle kirjautuneet käyttäjät  
+![4  b käyttäjätiedot bash](https://github.com/VaMaija/Linux2024/assets/142913118/2d98ba55-7204-40c1-940b-647d48d15b38)
 
-$ bash käyttäjätiedot
-toimii. 
-$ chmod ugo-rx käyttäjätiedot
-$ ls -l
-$ cp käyttäjätiedot /usr/local/bin
-ei onnistunut, permission denied
-$ sudo cp käyttäjätiedot /usr/local/bin
+  $ bash käyttäjätiedot  
+  toimii.   
+  $ chmod ugo-rx käyttäjätiedot  £annetaan muillekin execute ja read -oikeudet ohjelmaan  
+  $ ls -l  
+  ![5  oikedet muille](https://github.com/VaMaija/Linux2024/assets/142913118/6f1f8bc2-9f5c-4cbb-8f9d-7435077b4f57)
 
-
-valmis 20:16
-Tero karvisen Linux-kurssin tunnit 5.3.2024
-
-
+  $ cp käyttäjätiedot /usr/local/bin  #kopioidaan toimiva komento käytettäväksi
+  ei onnistunut, permission denied. vaatii sudon toimiakseen, koska komento muodostetaan käyttöön kaikille. 
+  $ sudo cp käyttäjätiedot /usr/local/bin  
+  
 
 
+  valmis 20:16  
+  Tero karvisen Linux-kurssin tunnit 5.3.2024  
 
+
+
+
+  Lähteet:  
+  a) https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/?fromSearch=bash  
 
