@@ -53,4 +53,5 @@
 
   Lähteet:  
   a) https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/?fromSearch=bash  
-
+  b) Tero Karvisen tunnit 5.3.2024 
+  C)
