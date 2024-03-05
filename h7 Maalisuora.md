@@ -34,14 +34,15 @@
 
   $ bash käyttäjätiedot  
   toimii.   
-  $ chmod ugo-rx käyttäjätiedot  £annetaan muillekin execute ja read -oikeudet ohjelmaan  
+  $ chmod ugo-rx käyttäjätiedot  #annetaan muillekin execute ja read -oikeudet ohjelmaan  
   $ ls -l  
   ![5  oikedet muille](https://github.com/VaMaija/Linux2024/assets/142913118/6f1f8bc2-9f5c-4cbb-8f9d-7435077b4f57)
 
-  $ cp käyttäjätiedot /usr/local/bin  #kopioidaan toimiva komento käytettäväksi
+  $ cp käyttäjätiedot /usr/local/bin  #kopioidaan toimiva komento kaikkien käytettäväksi
   ei onnistunut, permission denied. vaatii sudon toimiakseen, koska komento muodostetaan käyttöön kaikille. 
   $ sudo cp käyttäjätiedot /usr/local/bin  
-  
+  ![6  lopputulos](https://github.com/VaMaija/Linux2024/assets/142913118/bc03dfb9-871f-41a9-b228-313664a26b47)
+
 
 
   valmis 20:16  
