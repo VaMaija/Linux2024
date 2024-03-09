@@ -44,6 +44,16 @@
   ![6  lopputulos](https://github.com/VaMaija/Linux2024/assets/142913118/bc03dfb9-871f-41a9-b228-313664a26b47)
 
 
+  ### uusi virtuaalikone
+
+  Tein uuden virtuaalikoneen valmiiksi loppuharjoitusta varten. 
+  kloonasin koneen loppuvaiheen tehtäviin muistitikulle. 
+  latasin debian-live-12.5.0-amd64-xfce -kuvakkeen [Debianin suvustolta](https://cdimage.debian.org/cdimage/release/current-live/amd64/iso-hybrid/)
+
+  asensin koneen Terokarvinen.comin [ohjein](https://terokarvinen.com/2021/install-debian-on-virtualbox/)
+  
+  
+  
 
   valmis 20:16  
   Tero karvisen Linux-kurssin tunnit 5.3.2024  
