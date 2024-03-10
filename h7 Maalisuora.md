@@ -53,7 +53,7 @@
   asensin koneen Terokarvinen.comin [ohjein](https://terokarvinen.com/2021/install-debian-on-virtualbox/) ohjein. 
   
   
-  valmis 5.3.2024 20:16  
+  valmis 5.3.2024 21:45  käytetty aika 2h + päivän 6h 
   Tero karvisen Linux-kurssin tunnit 5.3.2024  
 
   ### C) vanha loppuharjoitus 
@@ -106,7 +106,7 @@
   ![17  Ekillä ei sudo-oikeuksia](https://github.com/VaMaija/Linux2024/assets/142913118/2470df60-71bf-40f1-ac88-8c6e7fe8fec5)
   ![18 erkki käyttäjän verkkosivu ei toimi](https://github.com/VaMaija/Linux2024/assets/142913118/73272724-0ed6-427a-9727-1318a2b5c629)
 
-  Tämän tehtävän kanssa taistelin tuntikausia, enkä saanut sitä kuitenkaan toimimaan.  Nukkumaan 23:40  
+  Tämän tehtävän kanssa taistelin tuntikausia, enkä saanut sitä kuitenkaan toimimaan.  Nukkumaan 23:40  6h 
   10.3.2024 klo 18:00 raportin kirjoittaminen tähän asti.   
   
   #### G) Asenna ssh- palvelin 
@@ -115,25 +115,46 @@
    ![g uusi käyttäjä](https://github.com/VaMaija/Linux2024/assets/142913118/0b81ea23-ef69-499e-afc4-d12267370d5e)  
    Localhost on sekaisin Erkki Esimerkin vuoksi: Poistin erkki.example.com.conf laitoin taiain alkuperäisen 000-default.conf ja käynnistin Apache2 uudelleen. Localhost vastaa ip-osoitteesta 127.0.0.1 ja localhost.
 
-   
+   Kirjaduin sisään localhostiin uudella käyttäjällä:  
+   $ ssh testimuija@localhost
+   $ ssh-keygen luo julkisen ja yksityisen avaimen, ei salasanoja tai lauseita     
+   ![26  ssc keygen](https://github.com/VaMaija/Linux2024/assets/142913118/dc52ab90-ee7c-4987-a6e9-e8ee0a9a9d28)
 
-   
-   
-   
+   $ ssh-copy-id testimuija@localhost 
+   kopioi avaimet localhostin muistiin. Avain on lisätty localhostiin testimuijan avaimeksi, mutta edelleen vaaditaan salasanaa. Ssh ei toimi. 
 
+   En osaaa vaitaa ssh kuuntelemaan toista porttia. 
+   Ei tehty  
 
+   #### H) asenna Django
 
+   $ sudo apt-get install virtualenv
+   $ export EDITOR=micro
+   $ echo "Testihommat loppuillasta"| sudo tee /var/www/html/index.html 
+  ![30 virtualenv](https://github.com/VaMaija/Linux2024/assets/142913118/90cdcbaa-d193-466d-90d7-5c80eb1f0fe7)  
 
+   toimii localhostissa. 
+   en saanut toimimaan sitten staattisessa testisivussa:  
+  ![31  staattinen testisivu](https://github.com/VaMaija/Linux2024/assets/142913118/0b3a5f77-8e40-4185-8c7d-924c818bd35d)
+  ![32  maijaoy static conf](https://github.com/VaMaija/Linux2024/assets/142913118/94a21199-cff0-4874-a5da-5b1671e14f83)  
+  ![33  epäonnistuminen](https://github.com/VaMaija/Linux2024/assets/142913118/d9fa51bd-e92c-4008-972f-d5ba2ad80ad9)
+
+  harjoituksen päätin tähän, sillä aamulla jälleen työpäivä. Tämä ei onnistunut aikaisemmassakaan harjoituksessa, joten samoilla ohjeilla tehtynä en saanut sitä edelleenkään onnistumaan. 
+  
+  klo 21:10 
 
   
 
-
   
-
-
-
+  
 
   Lähteet:  
   a) https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/?fromSearch=bash  
   b) Tero Karvisen tunnit 5.3.2024 
-  C) 
+  C) TeroKarvinen.com https://terokarvinen.com/2023/linux-palvelimet-2023-arvioitava-laboratorioharjoitus/?fromSearch=2023 luettu 9.3.2024 10.3.2024   
+      https://terokarvinen.com/2022/deploy-django/  10.3.2024
+      https://terokarvinen.com/ssh_public_key_authentication.html  10.3.2024
+      
+      
+      
+    
