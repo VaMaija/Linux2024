@@ -107,8 +107,20 @@
   ![18 erkki käyttäjän verkkosivu ei toimi](https://github.com/VaMaija/Linux2024/assets/142913118/73272724-0ed6-427a-9727-1318a2b5c629)
 
   Tämän tehtävän kanssa taistelin tuntikausia, enkä saanut sitä kuitenkaan toimimaan.  Nukkumaan 23:40  
-
+  10.3.2024 klo 18:00 raportin kirjoittaminen tähän asti.   
+  
   #### G) Asenna ssh- palvelin 
+   ![25  ssh](https://github.com/VaMaija/Linux2024/assets/142913118/442aa6a3-04cc-405d-9b9a-5c7e81023185)  
+   loin uuden käyttäjän:  
+   ![g uusi käyttäjä](https://github.com/VaMaija/Linux2024/assets/142913118/0b81ea23-ef69-499e-afc4-d12267370d5e)  
+   Localhost on sekaisin Erkki Esimerkin vuoksi: Poistin erkki.example.com.conf laitoin taiain alkuperäisen 000-default.conf ja käynnistin Apache2 uudelleen. Localhost vastaa ip-osoitteesta 127.0.0.1 ja localhost.
+
+   
+
+   
+   
+   
+
 
 
 
