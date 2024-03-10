@@ -142,7 +142,16 @@
   harjoituksen päätin tähän, sillä aamulla jälleen työpäivä. Tämä ei onnistunut aikaisemmassakaan harjoituksessa, joten samoilla ohjeilla tehtynä en saanut sitä edelleenkään onnistumaan. 
   
   klo 21:10 
+  jatkuu raportin takia: 
+  moka: poistin alkuperäisen raportin kun yritin siirtää sitä oikeaan kansioon. rm mv :C
 
+  ![vika moka](https://github.com/VaMaija/Linux2024/assets/142913118/ab9f06c7-2b09-4474-be97-679fb6a3730c)  
+  ![55](https://github.com/VaMaija/Linux2024/assets/142913118/53de7de8-5ab7-4516-9d3c-552c51a347f4)  
+
+
+  
+  klo 21:44  loppu,  sekä nainen että tehtävän yrittäminen
+  
   
 
   
