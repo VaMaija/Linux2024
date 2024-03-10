@@ -50,13 +50,73 @@
   kloonasin koneen loppuvaiheen tehtäviin muistitikulle. 
   latasin debian-live-12.5.0-amd64-xfce -kuvakkeen [Debianin suvustolta](https://cdimage.debian.org/cdimage/release/current-live/amd64/iso-hybrid/)
 
-  asensin koneen Terokarvinen.comin [ohjein](https://terokarvinen.com/2021/install-debian-on-virtualbox/)
+  asensin koneen Terokarvinen.comin [ohjein](https://terokarvinen.com/2021/install-debian-on-virtualbox/) ohjein. 
   
   
+  valmis 5.3.2024 20:16  
+  Tero karvisen Linux-kurssin tunnit 5.3.2024  
+
+  ### C) vanha loppuharjoitus 
+
+   lähdin ratkomaan vuoden 2023 [harjoitusta](https://terokarvinen.com/2023/linux-palvelimet-2023-arvioitava-laboratorioharjoitus/)  
+   
+   9.3.2024 17:35
+
+  Otin käyttöön kloonikoneen (maalisuora clone) muistitikulta  
+  $ sudo apt-get update  
+  $ sudo apt-get upgrade  
+  $ sudo install micro nano apache2 ssh  
+   asensin micro tekstieditorin, nano tekstieditorin, apace 2 webbipalvelimen ja ssh -ohjelmiston.   
+   **"Tallenna raportti nimellä report/index.md . Laita samaan kansioon jpg tai png -muotoiset kuvat."**
+  $ mkdir report  
+  $ cd micro index.md  
+  **kirjoitin raportin tänne  **
+  tarkastin, että tehtävässä piti testata tehdyt toimenpiteet muuten niitä ei ole todettu tehdyiksi.   
+  loppuraporttia ei saa julkaista kesken harjoituksen.   
+  #### C) raportin suojaus Linux-oikeuksilla niin että muut eivät pääse katsomaan:  
+  
+  $ /report$ ls -l index.md   
+  -rw-r--r-- 1 maijav maijav 67  9. 3. 18:00 index.md  
+  tallensin aluksi sinne kohdan a tiedot, läksyraportin linkin hain virtuaalikoneen netin kautta.   
+  Suojasin index.md -tekstitiedoston seuravilla komennoilla  
+  $ chmod o-r  
+  $ chmod g-r  
+  tarkastin setin   
+  $ ls -l index.md  
+  oikeudet oikein ja pääsin vielä käyttäjänä tekstitiedostoon sisälle.  
+  apuja sivustolta https://cets.seas.upenn.edu/answers/chmod.html   
+
+  ![10  suojattu raportti](https://github.com/VaMaija/Linux2024/assets/142913118/2d966f63-7831-4231-a36c-7739d4b28a6f)  
+
+  #### D) Hey Tee kaikkien käyttäjien käyttöön komento 'hey'
+
+  ![11  hey komento](https://github.com/VaMaija/Linux2024/assets/142913118/560d6fa6-0c1c-48cf-aa6e-bbc33d4142d4)  
+  ![12 komento](https://github.com/VaMaija/Linux2024/assets/142913118/ea35d35c-40f4-42c3-ac5b-6e62b1c6366f)  
+  ![14  komento bash hey testattu](https://github.com/VaMaija/Linux2024/assets/142913118/d3f15618-f12f-478c-a15b-260bc0d438ff)
+
+  #### E) Asenna Micro-editori ja sille jokin plugin
+  ![E micro](https://github.com/VaMaija/Linux2024/assets/142913118/5cb53e53-09d3-4545-aea1-2c99807e974c)
+  ![E plugin](https://github.com/VaMaija/Linux2024/assets/142913118/66a67ca8-98ca-4c43-964c-9e9dd9edebbb)  
+  En saanut gothamia toimimaan, ilmeisesti värien olisi pitänyt muuttua. 
+
+  #### F) Erkki Esimerkin seikkailut
+
+  ![15  adduser erkki](https://github.com/VaMaija/Linux2024/assets/142913118/2d66a600-7fcb-4048-84aa-606fd1172704)  
+  ![16  erkki esimerkki sisällä](https://github.com/VaMaija/Linux2024/assets/142913118/e6847599-7549-4807-bcbd-4b9a52ca5659) 
+  ![17  Ekillä ei sudo-oikeuksia](https://github.com/VaMaija/Linux2024/assets/142913118/2470df60-71bf-40f1-ac88-8c6e7fe8fec5)
+  ![18 erkki käyttäjän verkkosivu ei toimi](https://github.com/VaMaija/Linux2024/assets/142913118/73272724-0ed6-427a-9727-1318a2b5c629)
+
+  Tämän tehtävän kanssa taistelin tuntikausia, enkä saanut sitä kuitenkaan toimimaan.  Nukkumaan 23:40  
+
+  #### G) Asenna ssh- palvelin 
+
+
+
+
   
 
-  valmis 20:16  
-  Tero karvisen Linux-kurssin tunnit 5.3.2024  
+
+  
 
 
 
@@ -64,4 +124,4 @@
   Lähteet:  
   a) https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/?fromSearch=bash  
   b) Tero Karvisen tunnit 5.3.2024 
-  C)
+  C) 
